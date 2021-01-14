@@ -358,8 +358,21 @@
                             <span class="sort-more-txt">{{ item.more }}</span>
                         </a>
                     </footer>
-                    <!-- <div class="home-bottom-line"></div> -->
                 </div>
+            </div>
+            <!-- 底部区域 -->
+            <div class="bottom-area">
+                <div class="login">
+                    <!-- 登录/退出 -->
+                    <div class="loginbtn">
+                        <p v-if="isdenglu==false">登录</p>
+                        <p v-else>退出</p>
+                    </div>
+                    <!-- 反馈 -->
+                    <a href="http://club.huawei.com/thread-1144534-1-1.html">反馈</a>
+                </div>
+                <div class="touch"></div>
+                <div class="copyright clearfix"></div>
             </div>
         </div>
     </div>
@@ -1163,7 +1176,7 @@ export default {
     color: #444;
 }
 .sort-item-box {
-    margin: 0.3rem 0.3rem 0.3rem 0.2rem;
+    margin: 0.3rem 0.3rem 0.2rem 0.3rem;
     text-align: center;
 }
 .sort-item-box2 {
@@ -1171,22 +1184,24 @@ export default {
     display: flex;
     flex-flow: row wrap;
 }
+.sort-item-box2>.sort-item:nth-child(2n){
+    margin-left: 0.3rem;
+}
 .sort-item {
-    flex-grow: 1;
-    flex-shrink: 1;
-    width: 8.55rem;
+    flex: 1;
+    max-width: 50%;
 }
 .sort-item-img {
+    width: 100%;
     height: 8.55rem;
-    width: 8.55rem;
     background: #f9f9f9;
     border-radius: 0.5rem;
     overflow: hidden;
     position: relative;
 }
 .sort-item-img-box {
+    width: 100%;
     height: 8.55rem;
-    width: 8.55rem;
 }
 .sort-item-img-box > img {
     height: 6.1rem;
@@ -1272,4 +1287,68 @@ export default {
 .sort-item2::-webkit-scrollbar {
     display: none;
 }
+.bottom-area{
+    width: 100%;
+    background-color: #fff;
+    margin-top: .4rem;
+    padding: 0 .3rem;
+    overflow: hidden;
+}
+.login{
+    max-width: 100%;
+    padding: .25rem 0;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbtn{
+    display:block;
+    width: 3.7rem;
+    font-size: .7rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    position: relative;
+    text-align: center;
+}
+.loginbtn>p::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.25rem;
+    height: .5rem;
+    width: 0;
+    border-right: 1px solid #eaeaea;
+}
+.login>a{
+    display: block;
+    width: 3.7rem;
+    font-size: .7rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    position: relative;
+    text-align: center;
+}
+.touch{
+    padding: .5rem 0;
+    height: 2.45rem;
+    text-align: center;
+    display: block;
+    font-size: 0;
+}
+.touch::before{
+    content: "";
+    display: block;
+    width: 200%;
+    position: relative;
+    top: -0.5rem;
+    border-top: 1px solid #eaeaea;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+}
+
+
 </style>
