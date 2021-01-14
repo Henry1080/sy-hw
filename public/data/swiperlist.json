@@ -1,0 +1,657 @@
+{
+    "code": 200,
+    "status": "success",
+    "list": [
+        {
+            "id": "01",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/54873246401614237845.jpg"
+        },
+        {
+            "id": "02",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/28262799001619726282.jpg"
+        },
+        {
+            "id": "03",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/17198033401613089171.jpg"
+        },
+        {
+            "id": "04",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/05075479401617457050.jpg"
+        },
+        {
+            "id": "05",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/96946554401615564969.png"
+        },
+        {
+            "id": "06",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/43986554401615568934.jpg"
+        }
+    ],
+    "list2": [
+        {
+            "id": "11",
+            "href": "https://m.vmall.com/product/ord-2901010010603.html",
+            "img": "https://res.vmallres.com/pimages//product/6901443320202/142_142_A8033BCC8CCFFF9199371E71953A1B8B9730D5ACACA293D0mp.png",
+            "title": "WATCH GT 2",
+            "discount": "限时最高省100"
+        },
+        {
+            "id": "12",
+            "href": "https://m.vmall.com/product/ord-2701010013206.html",
+            "img": "https://res.vmallres.com/pimages//product/6901443319893/142_142_1560822511725mp.png",
+            "title": "华为平板 M6",
+            "discount": "最该直降150"
+        },
+        {
+            "id": "13",
+            "href": "https://m.vmall.com/product/ord-3102050014906.html",
+            "img": "https://res.vmallres.com/pimages//product/6901443399048/142_142_870B6FE27F5BF4867AEAF26DA9389FDBDECC5DB85D23154Fmp.png",
+            "title": "FreeBuds 3",
+            "discount": "最高优惠200"
+        },
+        {
+            "id": "14",
+            "href": "https://m.vmall.com/product/ord-3102150242301.html",
+            "img": "https://res.vmallres.com/pimages//product/3335200009278/142_142_72FF5BFE88D3242F38A8A8FAB8779986B2125ED494FD2ED9mp.png",
+            "title": "法国嘉宝红酒",
+            "discount": "斩获多项金奖"
+        },
+        {
+            "id": "15",
+            "href": "https://m.vmall.com/product/ord-2601010251904.html",
+            "img": "https://res.vmallres.com/pimages//product/6941487212811/142_142_4C8EE6806EDE629C0082E7D08CA7FA9FDF4155E790051011mp.png",
+            "title": "华为畅享20 SE",
+            "discount": "预订优惠50元"
+        },
+        {
+            "id": "16",
+            "href": "https://m.vmall.com/product/ord-2901020023403.html",
+            "img": "https://res.vmallres.com/pimages//product/6972453164216/142_142_DFAF0EE02C77C1232C670D742E21B84F8539CD6154595BF1mp.png",
+            "title": "华为手环 B6",
+            "discount": "限时优惠50"
+        },
+        {
+            "id": "17",
+            "href": "https://m.vmall.com/product/ord-3102050011505.html",
+            "img": "https://res.vmallres.com/pimages//product/6901443317301/142_142_1563239675439mp.png",
+            "title": "FreeLace耳机",
+            "discount": "限时优惠110"
+        },
+        {
+            "id": "18",
+            "href": "https://m.vmall.com/product/ord-2901010020502.html",
+            "img": "https://res.vmallres.com/pimages//product/6972453165985/142_142_93BCD651C90D2B5EFD779DB353F1A2E36DFAE529FA49026Emp.png",
+            "title": "儿童手表 4X",
+            "discount": "限时优惠100"
+        },
+        {
+            "id": "19",
+            "href": "https://m.vmall.com/product/ord-3001080001301.html",
+            "img": "https://res.vmallres.com/pimages//product/6901443356119/142_142_5D958398A838D6E435F42C4553C07FAC18DD542C47C28959mp.png",
+            "title": "Sound X音箱",
+            "discount": "限时优惠300"
+        },
+        {
+            "id": "110",
+            "href": "https://m.vmall.com/product/ord-3102150217001.html",
+            "img": "https://res.vmallres.com/pimages//product/6938179711059/142_142_8D0A00FD9973D74C6DD6CDD169BF6BDD647C7CFF564B8387mp.png",
+            "title": "蓓慈智能足浴器",
+            "discount": "限时直降110"
+        },
+        {
+            "id": "111",
+            "href": "https://m.vmall.com/product/ord-3102150236701.html",
+            "img": "https://res.vmallres.com/pimages//product/6927819503451/142_142_1BF03DFFDA537B9EC251DB7555CA8910CA1926323AB53E85mp.png",
+            "title": "舒华E3跑步机",
+            "discount": "秒杀价1799"
+        },
+        {
+            "id": "112",
+            "href": "https://m.vmall.com/product/ord-3001010019602.html",
+            "img": "https://res.vmallres.com/pimages//product/6972453162120/142_142_40020E91902861EC2EF7947ECC1427436488A26AA1CA0BDCmp.png",
+            "title": "路由AX3",
+            "discount": "最高优惠30"
+        }
+    ],
+    "adslist": [
+        {
+            "id": "21",
+            "img": "https://res.vmallres.com/pimages//product/6972453167255/428_428_5A0F299CEB8FD02EC475984195F40859A18690A29D3F4641mp.png",
+            "title": "HUAWEI WATCH FIT",
+            "data": "新品上市",
+            "price1": "￥779",
+            "price2": "￥779"
+        },
+        {
+            "id": "22",
+            "img": "https://res.vmallres.com/pimages//product/6941487202256/428_428_CAEB4B495D814F32C132C8E65B45EBA5FEACC985B5D26A37mp.png",
+            "title": "FreeBuds Pro",
+            "data": "享3期免息",
+            "price1": "￥1049",
+            "price2": "￥1099"
+        },
+        {
+            "id": "23",
+            "img": "https://res.vmallres.com/pimages//product/6973838980087/428_428_6A0E006F0E79EBE42547FF6412067ADADBDFB2958A0D9CB1mp.png",
+            "title": "大拿涡轮六叶剃须刀",
+            "data": "下单抽P40 Pro",
+            "price1": "￥199"
+        }
+    ],
+    "goodslist": [
+        {
+            "id": "31",
+            "img": "https://res.vmallres.com/pimages//product/6901443254330/428_428_BADA46563239499321B9228CC3577CBDF158AC209C165AF0mp.png",
+            "discount": "限时直降50元",
+            "name": "华为儿童手表 3 Pro",
+            "price": "￥748",
+            "price2": "￥798"
+        },
+        {
+            "id": "32",
+            "img": "https://res.vmallres.com/pimages//product/6941487201020/428_428_17EC8E6135055BBF8897EC7AD942B492F13DC620EEDD2D8Dmp.png",
+            "discount": "享12期免息",
+            "name": "华为智能眼镜 2",
+            "price": "￥2499",
+            "price2": ""
+        },
+        {
+            "id": "33",
+            "img": "https://res.vmallres.com/pimages//product/6901443414277/428_428_8D4CA852B05FD61B83CC56E25A8FE1331DA7C16C76481D44mp.png",
+            "discount": "限时直降20元",
+            "name": "Sound 智能音箱",
+            "price": "￥979",
+            "price2": "￥999"
+        },
+        {
+            "id": "34",
+            "img": "https://res.vmallres.com/pimages//product/6941487201433/428_428_71B17AE02362129AE67DE3F104ACC47C43CE9F7BE01FE459mp.png",
+            "discount": "限时特惠20元",
+            "name": "华为体脂秤 3",
+            "price": "￥149",
+            "price2": "￥169"
+        },
+        {
+            "id": "35",
+            "img": "https://res.vmallres.com/pimages//product/6941487209248/428_428_522CB419E4D1D10C3A397B2D4BDCAC2115D2719D040C2C60mp.png",
+            "discount": "限时特惠50",
+            "name": "FreeLace Pro  樱语粉",
+            "price": "￥549",
+            "price2": "￥599"
+        },
+        {
+            "id": "36",
+            "img": "https://res.vmallres.com/pimages//product/6941487204663/428_428_F934DED52CF13A08A05D707066DBF2BF3E1214C545FC7C6Amp.png",
+            "discount": "限时特惠100",
+            "name": "FreeBuds Studio 头戴耳机",
+            "price": "￥1899",
+            "price2": "￥1999"
+        },
+        {
+            "id": "37",
+            "img": "https://res.vmallres.com/pimages//product/6972453165978/428_428_829F23141309FC346D3574B47D634D0FE67F4C50699D0551mp.png",
+            "discount": "限时直降100元",
+            "name": "华为儿童手表 4X",
+            "price": "￥1298",
+            "price2": "￥1398"
+        },
+        {
+            "id": "38",
+            "img": "https://res.vmallres.com/pimages//product/6972453163554/428_428_15928846F729B31F231C77A61B3032066414DAD54CFF8594mp.png",
+            "discount": "限时优惠60元",
+            "name": "华为路由Q2S",
+            "price": "￥539",
+            "price2": "￥599"
+        },
+        {
+            "id": "39",
+            "img": "https://res.vmallres.com/pimages//product/6901443362950/428_428_560FE764C43FB2FFC29E80E172525294BEA2BBE26DEBF3ECmp.png",
+            "discount": "限时特惠100元",
+            "name": "HUAWEI VR Glass",
+            "price": "￥2899",
+            "price2": "￥2999"
+        },
+        {
+            "id": "310",
+            "img": "https://res.vmallres.com/pimages//product/6972453168856/428_428_EA57A4409F40F4C90B2DA3C4EEB9039F4815F65ADA0EDEFEmp.png",
+            "discount": "限时特惠50",
+            "name": "HUAWEI FreeLace Pro 无线耳机",
+            "price": "￥549",
+            "price2": "￥599"
+        },
+        {
+            "id": "311",
+            "img": "https://res.vmallres.com/pimages//product/6901443330133/428_428_8503E557FBFE9758B234DEB630AD0B78C413F8760A89EA8Amp.png",
+            "discount": "限时特惠10元",
+            "name": "华为手环4",
+            "price": "￥189",
+            "price2": "￥199"
+        },
+        {
+            "id": "312",
+            "img": "https://res.vmallres.com/pimages//product/6901443385669/428_428_FE4B22020F44311F8B2C1855BDBC5E061FD4A35898888B92mp.png",
+            "discount": "最高省5000",
+            "name": "华为智慧屏",
+            "price": "￥5499",
+            "price2": "￥5999"
+        }
+    ],
+    "sortlist": [
+        {
+            "id": "41",
+            "title": "手机",
+            "itemlist2": [
+                {
+                    "id": "4511",
+                    "img": "https://res0.vmallres.com/pimages//product/6901443353347/428_428_484D42DB83550E7CF59813E6BE3E2A9A4CF07CF0E75E32A3mp.png",
+                    "discount": "致敬时代",
+                    "name": "HUAWEI Mate 30 RS 保时捷设计",
+                    "price": "￥12999",
+                    "price2": ""
+                },
+                {
+                    "id": "4512",
+                    "img": "https://res0.vmallres.com/pimages//product/6972453165077/428_428_C089F3BE3BD266BAC2B777E1190F59241E0CE65223CA694Bmp.png",
+                    "discount": "购机赠耳机",
+                    "name": "华为畅享20 Pro ",
+                    "price": "￥1999",
+                    "price2": ""
+                }
+            ],
+            "href": "https://m.vmall.com/category-36?id=36&name=%E6%89%8B%E6%9C%BA",
+            "more": "发现更多手机"
+        },
+        {
+            "id": "42",
+            "title": "智能穿戴与运动健康",
+            "itemlist2": [
+                {
+                    "id": "4521",
+                    "img": "https://res1.vmallres.com/pimages//product/6972453167255/428_428_5A0F299CEB8FD02EC475984195F40859A18690A29D3F4641mp.png",
+                    "discount": "限时特惠20元",
+                    "name": "HUAWEI WATCH FIT",
+                    "price": "￥779",
+                    "price2": "￥799"
+                },
+                {
+                    "id": "4522",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443320202/428_428_A8033BCC8CCFFF9199371E71953A1B8B9730D5ACACA293D0mp.png",
+                    "discount": "限时最高省100元",
+                    "name": "HUAWEI WATCH GT 2",
+                    "price": "￥1388",
+                    "price2": "￥1488"
+                },
+                {
+                    "id": "4523",
+                    "img": "https://res1.vmallres.com/pimages//product/6972453164216/428_428_DFAF0EE02C77C1232C670D742E21B84F8539CD6154595BF1mp.png",
+                    "discount": "限时特惠50元",
+                    "name": "华为手环 B6",
+                    "price": "￥1149",
+                    "price2": "￥1199"
+                },
+                {
+                    "id": "4524",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443254330/428_428_BADA46563239499321B9228CC3577CBDF158AC209C165AF0mp.png",
+                    "discount": "限时直降50元",
+                    "name": "华为儿童手表 3 Pro",
+                    "price": "￥748",
+                    "price2": "￥798"
+                }
+            ],
+            "itemlist3": [
+                {
+                    "id": "4621",
+                    "img": "https://res1.vmallres.com/pimages//product/6941487201433/428_428_71B17AE02362129AE67DE3F104ACC47C43CE9F7BE01FE459mp.png",
+                    "discount": "限时特惠20元",
+                    "name": "华为智能体脂秤 3",
+                    "price": "￥149",
+                    "price2": "￥169"
+                },
+                {
+                    "id": "4622",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443360277/428_428_EC4E2F03BF69EFDF92BDB185547A4C733BA8AE3781105B39mp.png",
+                    "discount": "限时特惠10元",
+                    "name": "华为手环 4 Pro",
+                    "price": "￥389",
+                    "price2": "￥399"
+                },
+                {
+                    "id": "4623",
+                    "img": "https://res1.vmallres.com/pimages//product/6972453165978/428_428_829F23141309FC346D3574B47D634D0FE67F4C50699D0551mp.png",
+                    "discount": "限时直降100元",
+                    "name": "华为儿童手表4X",
+                    "price": "￥1298",
+                    "price2": "￥1398"
+                },
+                {
+                    "id": "4624",
+                    "img": "https://res1.vmallres.com/pimages//product/6972453166487/428_428_9EE4859B0C0B4B48B72B822322C89281E01FD29D24C96C11mp.png",
+                    "discount": "新品上市",
+                    "name": "HUAWEI WATCH GT 2 Pro",
+                    "price": "￥2188",
+                    "price2": ""
+                },
+                {
+                    "id": "4625",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443362950/428_428_560FE764C43FB2FFC29E80E172525294BEA2BBE26DEBF3ECmp.png",
+                    "discount": "限时特惠100元",
+                    "name": "HUAWEI VR Glass",
+                    "price": "￥2899",
+                    "price2": "￥2999"
+                },
+                {
+                    "id": "4626",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443375271/428_428_4C7F8433FD4422B64C447BCB4002AD184DDFE3771DD41909mp.png",
+                    "discount": "享3期免息",
+                    "name": "HUAWEI WATCH GT 2e",
+                    "price": "￥1288",
+                    "price2": ""
+                },
+                {
+                    "id": "4627",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443330133/428_428_8503E557FBFE9758B234DEB630AD0B78C413F8760A89EA8Amp.png",
+                    "discount": "限时特惠10元",
+                    "name": "华为手环4",
+                    "price": "￥189",
+                    "price2": "￥199"
+                },
+                {
+                    "id": "4628",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443309177/428_428_8CFE34C8B9A759E75D855553576F28162679C6C85C4BD2E1mp.png",
+                    "discount": "限时直降10元",
+                    "name": "华为儿童手表 3s",
+                    "price": "￥488",
+                    "price2": "￥498"
+                },
+                {
+                    "id": "4629",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443278381/428_428_B82D67C119283942BCC92625B03EAAEB4BC6A7C7065DEBCBmp.png",
+                    "discount": "清晰通话 拍照分享",
+                    "name": "华为儿童手表 3",
+                    "price": "￥298",
+                    "price2": ""
+                },
+                {
+                    "id": "46210",
+                    "img": "https://res1.vmallres.com/pimages//product/6972453166623/428_428_3BEC2C42E7A4A37E60FDC56465F3AF18E3EC0FC7F4D09B15mp.png",
+                    "discount": "全钛金属设计 蓝宝石表面",
+                    "name": "WATCH GT 2 保时捷设计款",
+                    "price": "￥4688",
+                    "price2": ""
+                },
+                {
+                    "id": "46211",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443408115/428_428_C198AB8A054D7A38449FDD23A2A41162C377BE0830F42667mp.png",
+                    "discount": "9项跑姿指导 篮球运动评分",
+                    "name": "【新品上市】华为手环 4e 活力款",
+                    "price": "￥119",
+                    "price2": "￥129"
+                },
+                {
+                    "id": "46212",
+                    "img": "https://res1.vmallres.com/pimages//product/6901443375271/428_428_4C7F8433FD4422B64C447BCB4002AD184DDFE3771DD41909mp.png",
+                    "discount": "享3期免息",
+                    "name": "HUAWEI WATCH GT 2e ",
+                    "price": "￥1288",
+                    "price2": ""
+                }
+            ],
+            "href": "https://m.vmall.com/category-59?id=59&name=%E6%99%BA%E8%83%BD%E7%A9%BF%E6%88%B4%E4%B8%8E%E8%BF%90%E5%8A%A8%E5%81%A5%E5%BA%B7",
+            "more": "发现更多智能穿戴与运动健康"
+        },
+        {
+            "id": "43",
+            "title": "耳机眼镜音响",
+            "itemlist2": [
+                {
+                    "id": "4531",
+                    "img": "https://res2.vmallres.com/pimages//product/6901443399048/428_428_870B6FE27F5BF4867AEAF26DA9389FDBDECC5DB85D23154Fmp.png",
+                    "discount": "最高省200",
+                    "name": "HUAWEI FreeBuds 3 无线耳机",
+                    "price": "￥699",
+                    "price2": "￥899"
+                },
+                {
+                    "id": "4532",
+                    "img": "https://res2.vmallres.com/pimages//product/6901443356119/428_428_5D958398A838D6E435F42C4553C07FAC18DD542C47C28959mp.png",
+                    "discount": "限时优惠300元",
+                    "name": "HUAWEI Sound X 智能音箱",
+                    "price": "￥1699",
+                    "price2": "￥1999"
+                },
+                {
+                    "id": "4533",
+                    "img": "https://res2.vmallres.com/pimages//product/6941487204656/428_428_FB7BAC2D86AA8CA5DF84BE54FBE5FD73150052C815ADC835mp.png",
+                    "discount": "限时优惠100",
+                    "name": "HUAWEI FreeBuds Studio 无线头戴耳机",
+                    "price": "￥1899",
+                    "price2": "￥1999"
+                },
+                {
+                    "id": "4534",
+                    "img": "https://res2.vmallres.com/pimages//product/6941487201020/428_428_17EC8E6135055BBF8897EC7AD942B492F13DC620EEDD2D8Dmp.png",
+                    "discount": "享12期免息",
+                    "name": "华为智能眼镜2代",
+                    "price": "￥2499",
+                    "price2": ""
+                }
+            ],
+            "itemlist3": [
+                {
+                    "id": "4631",
+                    "img": "https://res2.vmallres.com/pimages//product/6941487202256/428_428_CAEB4B495D814F32C132C8E65B45EBA5FEACC985B5D26A37mp.png",
+                    "discount": "最高省50",
+                    "name": "【新品】HUAWEI FreeBuds Pro 真无线耳机",
+                    "price": "￥1049",
+                    "price2": "￥1099"
+                },
+                {
+                    "id": "4632",
+                    "img": "https://res2.vmallres.com/pimages//product/6901443412396/428_428_9975232FF659F2592E7C049E0F0B715D2EB699461F0AAE0Bmp.png",
+                    "discount": "限时优惠20元",
+                    "name": "华为 AI 音箱 2",
+                    "price": "￥279",
+                    "price2": "￥299"
+                },
+                {
+                    "id": "4633",
+                    "img": "https://res2.vmallres.com/pimages//product/6972453168856/428_428_EA57A4409F40F4C90B2DA3C4EEB9039F4815F65ADA0EDEFEmp.png",
+                    "discount": "限时优惠50",
+                    "name": "HUAWEI FreeLace Pro 无线耳机",
+                    "price": "￥549",
+                    "price2": "￥599"
+                },
+                {
+                    "id": "4634",
+                    "img": "https://res2.vmallres.com/pimages//product/6901443414277/428_428_8D4CA852B05FD61B83CC56E25A8FE1331DA7C16C76481D44mp.png",
+                    "discount": "限时优惠20元",
+                    "name": "HUAWEI Sound",
+                    "price": "￥979",
+                    "price2": "￥999"
+                },
+                {
+                    "id": "4635",
+                    "img": "https://res2.vmallres.com/pimages//product/6901443295951/428_428_1554964968160mp.png",
+                    "discount": "最高省110",
+                    "name": "HUAWEI FreeLace 无线耳机",
+                    "price": "￥389",
+                    "price2": "￥499"
+                },
+                {
+                    "id": "4636",
+                    "img": "https://res2.vmallres.com/pimages//product/6901443380114/428_428_0DAFD82FD5CBE359EADDB5FC4B64CD33415699164FFD0132mp.png",
+                    "discount": "享12期免息",
+                    "name": "华为智能眼镜",
+                    "price": "￥2499",
+                    "price2": ""
+                }
+            ],
+            "href": "https://m.vmall.com/category-652?id=652&name=%E8%80%B3%E6%9C%BA%E9%9F%B3%E7%AE%B1%E7%9C%BC%E9%95%9C",
+            "more": "发现更多耳机眼镜音响"
+        },
+        {
+            "id": "44",
+            "title": "智慧屏",
+            "itemlist2": [
+                {
+                    "id": "4541",
+                    "img": "https://res3.vmallres.com/pimages//product/6901443387588/428_428_1293C2C791F87BE0948D95135021BC202D4B20A735051BDFmp.png",
+                    "discount": "最高省5000",
+                    "name": "华为智慧屏系列",
+                    "price": "￥3999",
+                    "price2": "￥4299"
+                },
+                {
+                    "id": "4542",
+                    "img": "https://res3.vmallres.com/pimages//product/6901443385669/428_428_FE4B22020F44311F8B2C1855BDBC5E061FD4A35898888B92mp.png",
+                    "discount": "最高省5000",
+                    "name": "华为智慧屏 V65i",
+                    "price": "￥5499",
+                    "price2": "￥5999"
+                },
+                {
+                    "id": "4543",
+                    "img": "https://res3.vmallres.com/pimages//product/6941487210152/428_428_C002DB8738E4BEC28D56A34FF70B40388B416F9E7D8ED25Cmp.png",
+                    "discount": "限时最高优惠100元",
+                    "name": "华为智慧屏S55",
+                    "price": "￥3199",
+                    "price2": "￥3299"
+                },
+                {
+                    "id": "4544",
+                    "img": "https://res3.vmallres.com/pimages//product/6941487210169/428_428_D6D5D9F5EB593FBAA77207288884A42B28AC2C3569C08C38mp.png",
+                    "discount": "限时最高优惠100元",
+                    "name": "华为智慧屏S65",
+                    "price": "￥4899",
+                    "price2": "￥4999"
+                }
+            ],
+            "itemlist3": [
+                {
+                    "id": "4641",
+                    "img": "https://res3.vmallres.com/pimages//product/6941487211173/428_428_87599FE3B13A72582CC2C554CE2B9931CD8569FD275C84F1mp.png",
+                    "discount": "火爆热销中",
+                    "name": "华为智慧屏S75",
+                    "price": "￥6999",
+                    "price2": ""
+                },
+                {
+                    "id": "4642",
+                    "img": "https://res3.vmallres.com/pimages//product/6901443390496/428_428_36F72EB747591D900CAC22B69D6537E1C04D5C485EB66BE0mp.png",
+                    "discount": "特惠5000",
+                    "name": "华为智慧屏X65",
+                    "price": "￥19999",
+                    "price2": "￥24999"
+                },
+                {
+                    "id": "4643",
+                    "img": "https://res3.vmallres.com/pimages//product/6901443331093/428_428_21EEE8FC1E9B970CAA527CC00F668B933528C62FBC4CD1E4mp.png",
+                    "discount": "最高省500",
+                    "name": "华为智慧屏 V65",
+                    "price": "￥7299",
+                    "price2": "￥7499"
+                },
+                {
+                    "id": "4644",
+                    "img": "https://res3.vmallres.com/pimages//product/6901443363834/428_428_F5914787EADD22E44AE873EB26A9DEE719BA467ACED12261mp.png",
+                    "discount": "特惠400",
+                    "name": "华为智慧屏 V75",
+                    "price": "￥12599",
+                    "price2": "￥12999"
+                },
+                {
+                    "id": "4645",
+                    "img": "https://res3.vmallres.com/pimages//product/6901443387588/428_428_1293C2C791F87BE0948D95135021BC202D4B20A735051BDFmp.png",
+                    "discount": "最高省300",
+                    "name": "华为智慧屏V55",
+                    "price": "￥3999",
+                    "price2": "￥4299"
+                }
+            ],
+            "href": "https://m.vmall.com/category-646?id=646&name=%E6%99%BA%E6%85%A7%E5%B1%8F",
+            "more": "发现更多智慧屏"
+        },
+        {
+            "id": "45",
+            "title": "平板电脑",
+            "itemlist2": [
+                {
+                    "id": "4551",
+                    "img": "https://res4.vmallres.com/pimages//product/6972453166357/428_428_E45D54999ACF63F5CF8C4A565C7F067787A596BAA9A1A7CAmp.png",
+                    "discount": "享3期免息",
+                    "name": "MatePad 10.8",
+                    "price": "￥2399",
+                    "price2": ""
+                },
+                {
+                    "id": "4552",
+                    "img": "https://res4.vmallres.com/pimages//product/6941487204960/428_428_1E6951763EADFB64B14E5B9C8BA1825D73ABFB8751BC7FB8mp.png",
+                    "discount": "限时立省50元",
+                    "name": "MatePad 10.4",
+                    "price": "￥3149",
+                    "price2": "￥3199"
+                },
+                {
+                    "id": "4553",
+                    "img": "https://res4.vmallres.com/pimages//product/6901443362165/428_428_43FF8D6E14324A16BAA680D242AB29BF72BACAE425DD5943mp.png",
+                    "discount": "享3期免息",
+                    "name": "MatePad Pro",
+                    "price": "￥3799",
+                    "price2": ""
+                },
+                {
+                    "id": "4554",
+                    "img": "https://res4.vmallres.com/pimages//product/6901443319893/428_428_1560822511725mp.png",
+                    "discount": "限时最高省150元",
+                    "name": "华为平板 M6 8.4",
+                    "price": "￥2099",
+                    "price2": "￥2199"
+                }
+            ],
+            "itemlist3": [
+                {
+                    "id": "4651",
+                    "img": "https://res4.vmallres.com/pimages//product/6901443404865/428_428_189B245FC9E8FB40914AC4D51E1AB4E575593A42E4D4CF54mp.png",
+                    "discount": "限时立省50元",
+                    "name": "华为畅享平板 2",
+                    "price": "￥1749",
+                    "price2": "￥1799"
+                },
+                {
+                    "id": "4652",
+                    "img": "https://res4.vmallres.com/pimages//product/6901443294756/428_428_A428062B97BB6F5DD911D740DACD939C5E06CC90FC6DC3D0mp.png",
+                    "discount": "最高立省100元",
+                    "name": "华为平板 M5 青春版 8.0英寸",
+                    "price": "￥1299",
+                    "price2": "￥1399"
+                },
+                {
+                    "id": "4653",
+                    "img": "https://res4.vmallres.com/pimages//product/6901443402878/428_428_E2C7CCAAB2D5AAACF3B3B1562183DD3F79643B6FEA511DEEmp.png",
+                    "discount": "享3期免息",
+                    "name": "MatePad Pro 5G",
+                    "price": "￥6799",
+                    "price2": ""
+                },
+                {
+                    "id": "4654",
+                    "img": "https://res4.vmallres.com/pimages//product/6901443330553/428_428_FE282FB10458C67122DAEE93D7B13C30AE573A59E3CF7BB8mp.png",
+                    "discount": "限时最高省150元",
+                    "name": "M6 高能版",
+                    "price": "￥2649",
+                    "price2": "￥2799"
+                },
+                {
+                    "id": "4655",
+                    "img": "https://res4.vmallres.com/pimages//product/6941487204960/428_428_1E6951763EADFB64B14E5B9C8BA1825D73ABFB8751BC7FB8mp.png",
+                    "discount": "限时立省50元",
+                    "name": "MatePad 5G 10.4",
+                    "price": "￥3149",
+                    "price2": "￥3199"
+                }
+            ],
+            "href": "https://m.vmall.com/category-678?id=678&name=%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91",
+            "more": "发现更多平板电脑"
+        }
+    ]
+}
