@@ -383,7 +383,6 @@
             </div>
             <el-backtop target=".wrap" class="backtop" :bottom="70" :right="11.4">
                 <span></span>
-                <!-- <img src="https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/button-top.png"/> -->
             </el-backtop>
         </div>
     </div>
@@ -462,13 +461,13 @@ export default {
                     that.hour = parseInt((time % (60 * 60 * 24)) / 3600) < 10 ? '0' + parseInt((time % (60 * 60 * 24)) / 3600) : parseInt((time % (60 * 60 * 24)) / 3600);
                     that.min = parseInt(((time % (60 * 60 * 24)) % 3600) / 60) < 10 ? '0' + parseInt(((time % (60 * 60 * 24)) % 3600) / 60) : parseInt(((time % (60 * 60 * 24)) % 3600) / 60);
                     that.sec = parseInt(((time % (60 * 60 * 24)) % 3600) % 60) < 10 ? '0' + parseInt(((time % (60 * 60 * 24)) % 3600) % 60) : parseInt(((time % (60 * 60 * 24)) % 3600) % 60);
-                    that.ssec = parseInt(((date % (60 * 60 * 24)) % 3600) / 60) % 10;
                 } else {
                     //活动已结束，全部设置为'00'
                     // console.log("aaa")
-                    (that.day = '00'), (that.hou = '00'), (that.min = '00'), (that.sec = '00');
+                    (that.hour = '00'), (that.min = '00'), (that.sec = '00');
                 }
             }, 100);
+            
         },
         fun1() {
             this.distance = this.$refs.wrap.scrollTop;

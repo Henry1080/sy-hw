@@ -1,0 +1,48 @@
+{
+    "code": 200,
+    "status": "success",
+    "goodslist": [
+        {
+            "id": "a1",
+            "img": "https://res.vmallres.com/pimages/product/6901443381579//428_428_DE7F785A7E0C276D3A1F40A5C6D82B07D2AED60CE1F73795mp.png",
+            "name": "HUAWEI P40 Pro",
+            "price": "6488",
+            "price2": ""
+        },
+        {
+            "id": "a2",
+            "img": "https://res.vmallres.com/pimages/product/6901443415830//428_428_3FEB0BF538D41FDC1B5E8EC86F1732B42C21B76E453EF914mp.png",
+            "name": "HUAWEI Mate 30E Pro",
+            "price": "5299",
+            "price2": ""
+        },
+        {
+            "id": "a3",
+            "img": "https://res.vmallres.com/pimages/product/6941487202263//428_428_4616D267AC35464E0BFFD2234C05E19613F13C67C14BD093mp.png",
+            "name": "HUAWEI FreeBuds Pro",
+            "price": "1049",
+            "price2": "1099"
+        },
+        {
+            "id": "a4",
+            "img": "https://res.vmallres.com/pimages/product/6941487204960//428_428_1E6951763EADFB64B14E5B9C8BA1825D73ABFB8751BC7FB8mp.png",
+            "name": "HUAWEI MatePad 5G",
+            "price": "3149",
+            "price2": "3199"
+        },
+        {
+            "id": "a5",
+            "img": "https://res.vmallres.com/pimages/product/6901443320202//428_428_A8033BCC8CCFFF9199371E71953A1B8B9730D5ACACA293D0mp.png",
+            "name": "HUAWEI WATCH GT 2",
+            "price": "1388",
+            "price2": "1488"
+        },
+        {
+            "id": "a6",
+            "img": "https://res.vmallres.com/pimages/product/6901443404926//428_428_EC057BA9FC304F37A60287C1D9E761FACF0EF559795D340Fmp.png",
+            "name": "HUAWEI MateBook X",
+            "price": "8988",
+            "price2": "8999"
+        }
+    ]
+}
