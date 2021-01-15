@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <!-- 顶部app横幅 -->
-        <div class="header-pullapp" v-if="ispullapp">
+        <div class="header-pullapp" v-if="ispullapp" v-show="ispullapp2">
             <div class="header-pullapp-close" @click="closeapp">
                 <span></span>
             </div>
@@ -19,7 +19,7 @@
             <div class="header-search-log">
                 <img src="https://res.vmallres.com/nwap/20201115/images/echannelWap/logo/logo_vmall.png" alt="" />
             </div>
-            <div class="search">
+            <div class="search" @click="tosearch">
                 <div class="search-content">Mate40 系列</div>
             </div>
             <div class="shortcut">
@@ -104,7 +104,7 @@
             <div class="mask" v-show="isotherpage"></div>
         </div>
         <!-- 主要内容 -->
-        <div class="wrap">
+        <div class="wrap" ref="wrap" @scroll="fun1">
             <!-- 轮播图 -->
             <div class="swiper-box">
                 <swiper ref="mySwiper" :options="swiperOptions">
@@ -122,65 +122,45 @@
                     <swiper ref="mySwiper" :options="swiperOptions2" class="swiperBox2">
                         <swiper-slide class="swiper2">
                             <a href="https://m.vmall.com/member/privilege">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img1.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img1"></div>
                                 <p>会员领券</p>
                             </a>
                             <a href="https://msale.vmall.com/hwsmh.html">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img2.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img2"></div>
                                 <p>华为数码</p>
                             </a>
                             <a href="https://msale.vmall.com/education.html">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img3.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img3"></div>
                                 <p>华为智慧屏</p>
                             </a>
                             <a href="https://msale.vmall.com/smarthome2020.html">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img4.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img4"></div>
                                 <p>好物注册</p>
                             </a>
                             <a href="https://vmall-m.aihuishou.com/">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img5.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img5"></div>
                                 <p>以旧换新</p>
                             </a>
                         </swiper-slide>
                         <swiper-slide class="swiper2">
                             <a href="https://m.vmall.com/member/inviteGift">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img6.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img6"></div>
                                 <p>邀请有礼</p>
                             </a>
                             <a href="https://m.vmall.com/openTest">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img7.png" alt="" />
-                                </div>
+                                <div class="swiper2-img  swiper2-img7"></div>
                                 <p>智慧生活</p>
                             </a>
                             <a href="https://m.vmall.com/live/home">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img8.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img8"></div>
                                 <p>直播频道</p>
                             </a>
                             <a href="https://msale.vmall.com/points.html">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img9.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img9"></div>
                                 <p>积分商城</p>
                             </a>
                             <a href="https://msale.vmall.com/smarthome.html">
-                                <div class="swiper2-img">
-                                    <img src="../assets/Homeimg/home-img10.png" alt="" />
-                                </div>
+                                <div class="swiper2-img swiper2-img10"></div>
                                 <p>精选特卖</p>
                             </a>
                         </swiper-slide>
@@ -365,15 +345,46 @@
                 <div class="login">
                     <!-- 登录/退出 -->
                     <div class="loginbtn">
-                        <p v-if="isdenglu==false">登录</p>
+                        <p v-if="isdenglu == false">登录</p>
                         <p v-else>退出</p>
                     </div>
                     <!-- 反馈 -->
                     <a href="http://club.huawei.com/thread-1144534-1-1.html">反馈</a>
                 </div>
-                <div class="touch"></div>
-                <div class="copyright clearfix"></div>
+                <div class="touch">
+                    <a href="https://m.vmall.com/app/download" class="ke">
+                        <i></i>
+                        <span>客户端</span>
+                    </a>
+                    <a href="#" class="chu">
+                        <i></i>
+                        <span>触屏版</span>
+                    </a>
+                    <a href="https://www.vmall.com/?validated=true&themeName=huawei&loginChannel=26000000&reqClientType=26&lang=zh-cn" class="dian">
+                        <i></i>
+                        <span>电脑版</span>
+                    </a>
+                </div>
+                <div class="copyright">
+                    <a href="https://consumer.huawei.com/minisite/cloudservice/vmall/privacy-statement.htm?country=CN&language=zh_CN">隐私政策</a>
+                    <a href="https://consumer.huawei.com/minisite/cloudservice/vmall/terms.htm?country=CN&language=zh_CN">用户协议</a>
+                    <a href="https://consumer.huawei.com/minisite/cloudservice/vmall/cookies.htm?country=CN&language=zh_CN">关于Cookie</a>
+                    <br />
+                    <span> Copyright 2012-2021 VMALL.COM 版权所有</span>
+                    <br />
+                    <a href="https://res.vmallres.com/pimages///sale/2019-04/Vhy8y3yxVJXg0FE74dh0.png">营业执照</a>
+                    <span> 备案主体编号：44201919072182</span>
+                    <br />
+                    <a href="https://beian.miit.gov.cn/#/home">粤ICP备19015064号</a>
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44190002003939">粤公网安备 44190002003939号</a>
+                    <br />
+                    <span>增值电信业务经营许可证：粤B2-20190762</span>
+                </div>
             </div>
+            <el-backtop target=".wrap" class="backtop" :bottom="70" :right="11.4">
+                <span></span>
+                <!-- <img src="https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/button-top.png"/> -->
+            </el-backtop>
         </div>
     </div>
 </template>
@@ -385,6 +396,8 @@ export default {
         return {
             // 顶部app横幅是否显示
             ispullapp: true,
+            //滚动条滚动显示或隐藏
+            ispullapp2: true,
             // 其他页面隐藏张开
             isotherpage: false,
             swiperlist: [],
@@ -417,6 +430,8 @@ export default {
             goodslist: [],
             // 商品分类列表
             sortlist: [],
+            // 滚动条高度
+            distance: 0,
         };
     },
     computed: {
@@ -455,25 +470,56 @@ export default {
                 }
             }, 100);
         },
+        fun1() {
+            this.distance = this.$refs.wrap.scrollTop;
+            // console.log(this.distance);
+        },
+        // 去搜索页面
+        tosearch() {
+            this.$router.push({
+                path: '/search',
+            });
+        },
+        // 获取数据
+        getData() {
+            let that = this;
+            let url = 'http://localhost:8080/data/swiperlist.json';
+            axios
+                .get(url)
+                .then(function(response) {
+                    // console.log(response);
+                    that.swiperlist = response.data.list;
+                    that.seckilllist = response.data.list2;
+                    that.adslist = response.data.adslist;
+                    that.goodslist = response.data.goodslist;
+                    that.sortlist = response.data.sortlist;
+                })
+                .catch(function(error) {
+                    console.log(error);
+                });
+        },
     },
     created() {
-        let that = this;
-        that.time();
-        let url = 'http://localhost:8080/data/swiperlist.json';
-        // 为给定 ID 的 user 创建请求
-        axios
-            .get(url)
-            .then(function(response) {
-                console.log(response);
-                that.swiperlist = response.data.list;
-                that.seckilllist = response.data.list2;
-                that.adslist = response.data.adslist;
-                that.goodslist = response.data.goodslist;
-                that.sortlist = response.data.sortlist;
-            })
-            .catch(function(error) {
-                console.log(error);
-            });
+        this.time(), 
+        this.getData();
+    },
+    activated() {
+        // 切入组件回到原来的滚动条高度
+        this.$refs.wrap.scrollTop = this.distance;
+    },
+    watch: {
+        // 监听滚动条高度判断app横幅是否显示
+        distance(newVal) {
+            if (this.ispullapp) {
+                if (newVal != 0) {
+                    this.ispullapp2 = false;
+                } else {
+                    this.ispullapp2 = true;
+                }
+            } else {
+                this.ispullapp2 = false;
+            }
+        },
     },
     // mounted() {
     //     console.log('Current Swiper instance object', this.swiper);
@@ -499,7 +545,7 @@ export default {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    z-index: 2;
+    z-index: 4;
 }
 .header-pullapp-close {
     width: 2rem;
@@ -564,7 +610,7 @@ export default {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    z-index: 2;
+    z-index: 4;
 }
 .header-search-log {
     flex-shrink: 0;
@@ -624,6 +670,7 @@ export default {
 .other-page {
     width: 100%;
     flex-shrink: 0;
+    position: relative;
 }
 .other-page > .hide {
     width: 100%;
@@ -646,12 +693,8 @@ export default {
 }
 .other-page > .hide > .detail > span {
     padding: 0 0.75rem;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .other-page > .hide > .detail > span > span {
-    /* padding: 0.45rem 0 0.35rem; */
     padding: 0 0 0.1rem 0;
     color: #cc0e11;
     border-bottom: 0.1rem solid #cc0e11;
@@ -677,7 +720,9 @@ export default {
     background-image: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/more_down.png);
 }
 .other-page > .appear {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 99;
     width: 100%;
 }
@@ -750,7 +795,7 @@ export default {
 
 .mask {
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     background: rgba(0, 0, 0, 0.27);
     top: 0;
     left: 0;
@@ -762,6 +807,8 @@ export default {
     height: 7.35rem;
     padding-top: 0.2rem;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 .img-box {
     height: 100%;
@@ -816,8 +863,40 @@ export default {
     width: 1.5rem;
     height: 1.5rem;
     margin: 0 auto;
+    background: url(https://res.vmallres.com/pimages//squaredInfo/icon/8/713ae64f736b10003ab9f9092059185b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+.swiper2-img1 {
+    background-position-x: 0%;
+}
+.swiper2-img2 {
+    background-position-x: 11.11%;
+}
+.swiper2-img3 {
+    background-position-x: 22.22%;
+}
+.swiper2-img4 {
+    background-position-x: 33.33%;
+}
+.swiper2-img5 {
+    background-position-x: 44.44%;
+}
+.swiper2-img6 {
+    background-position-x: 55.56%;
+}
+.swiper2-img7 {
+    background-position-x: 66.67%;
+}
+.swiper2-img8 {
+    background-position-x: 77.78%;
+}
+.swiper2-img9 {
+    background-position-x: 88.89%;
+}
+.swiper2-img10 {
+    background-position-x: 100%;
+}
 .swiper2 p {
     padding-top: 8px;
 }
@@ -1184,7 +1263,7 @@ export default {
     display: flex;
     flex-flow: row wrap;
 }
-.sort-item-box2>.sort-item:nth-child(2n){
+.sort-item-box2 > .sort-item:nth-child(2n) {
     margin-left: 0.3rem;
 }
 .sort-item {
@@ -1229,9 +1308,9 @@ export default {
     -webkit-box-orient: vertical;
     white-space: normal;
 }
-.sort-item-name{
-    max-width:8.55rem ;
-    padding: .4rem .6rem 0 .5rem;
+.sort-item-name {
+    max-width: 8.55rem;
+    padding: 0.4rem 0.6rem 0 0.5rem;
     margin: 0 auto;
     white-space: normal;
     display: -webkit-box;
@@ -1243,38 +1322,38 @@ export default {
     color: #333;
     max-height: initial;
     white-space: normal;
-    font-size: .65rem;
+    font-size: 0.65rem;
     line-height: 1.4;
 }
-.sort-item-price{
+.sort-item-price {
     font-size: 0;
-    padding: .2rem 0 .8rem;
+    padding: 0.2rem 0 0.8rem;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.sort-item-price-now{
-    font-size: .65rem;
+.sort-item-price-now {
+    font-size: 0.65rem;
     color: #ca141d;
 }
-.sort-item-price-gone{
-    padding-left: .05rem;
+.sort-item-price-gone {
+    padding-left: 0.05rem;
     color: #999;
-    font-size: .65rem;
+    font-size: 0.65rem;
     text-decoration: line-through;
 }
-.sort-more{
-    padding-bottom: .3rem;
+.sort-more {
+    padding-bottom: 0.3rem;
 }
-.sort-more>a{
-    padding: .55rem;
+.sort-more > a {
+    padding: 0.55rem;
     display: table;
     margin: 0 auto;
     background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/arrow_right.png) no-repeat right center;
-    background-size: .4rem .6rem;
+    background-size: 0.4rem 0.6rem;
 }
-.sort-more>a>span{
-    font-size: .7rem;
+.sort-more > a > span {
+    font-size: 0.7rem;
     color: #4a4a4a;
     display: table-cell;
 }
@@ -1287,68 +1366,141 @@ export default {
 .sort-item2::-webkit-scrollbar {
     display: none;
 }
-.bottom-area{
+.bottom-area {
     width: 100%;
     background-color: #fff;
-    margin-top: .4rem;
-    padding: 0 .3rem;
+    margin-top: 0.4rem;
+    padding: 0 0.3rem;
     overflow: hidden;
 }
-.login{
+.login {
     max-width: 100%;
-    padding: .25rem 0;
+    padding: 0.25rem 0;
     height: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.loginbtn{
-    display:block;
+.loginbtn {
+    display: block;
     width: 3.7rem;
-    font-size: .7rem;
+    font-size: 0.7rem;
     height: 1.5rem;
     line-height: 1.5rem;
     position: relative;
     text-align: center;
 }
-.loginbtn>p::before{
-    content: "";
+.loginbtn > p::before {
+    content: '';
     position: absolute;
     right: 0;
     top: 50%;
     margin-top: -0.25rem;
-    height: .5rem;
+    height: 0.5rem;
     width: 0;
     border-right: 1px solid #eaeaea;
 }
-.login>a{
+.login > a {
     display: block;
     width: 3.7rem;
-    font-size: .7rem;
+    font-size: 0.7rem;
     height: 1.5rem;
     line-height: 1.5rem;
     position: relative;
     text-align: center;
 }
-.touch{
-    padding: .5rem 0;
+.touch {
+    padding: 0.5rem 0;
     height: 2.45rem;
+    border-top: 0.5px solid #eaeaea;
     text-align: center;
-    display: block;
-    font-size: 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
 }
-.touch::before{
-    content: "";
+
+.touch > a {
     display: block;
-    width: 200%;
+    margin-left: 1.8rem;
+    color: #9b9b9b;
+}
+.touch > a:first-child {
+    margin-left: 0;
+}
+.touch a i {
+    display: block;
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.touch > a:nth-child(2) {
+    color: #4d4d4d;
+}
+.touch a i:first-child {
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/bg/bg-client.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.touch a:nth-child(2) i {
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/bg/bg-touch.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.touch a:last-child i {
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/bg/bg-pc.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.touch a span {
+    display: block;
+    font-size: 0.6rem;
+    line-height: 1.3;
+}
+.copyright {
+    padding: 0.25rem 0 0.9rem;
+    line-height: 0.7;
+    text-align: center;
+}
+.bottom-area > .copyright > a:first-child,
+.bottom-area > .copyright > a:nth-child(2),
+.bottom-area > .copyright > a:nth-child(3) {
+    padding: 0 0.5rem;
+    font-size: 0.6rem;
+    line-height: 1.5;
+}
+.bottom-area > .copyright a:first-child:before,
+.bottom-area > .copyright a:nth-child(2):before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.25rem;
+    height: 0.5rem;
+    width: 0;
+    border-right: 1px solid #eaeaea;
+}
+.bottom-area > .copyright a,
+.bottom-area > .copyright span {
+    font-size: 0.5rem;
+    color: #9b9b9b;
     position: relative;
-    top: -0.5rem;
-    border-top: 1px solid #eaeaea;
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-    -webkit-transform-origin: left top;
-    transform-origin: left top;
+    padding: 0 0.2rem;
 }
-
-
+.backtop {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    bottom: calc(57px + 0.4rem) !important;
+    right: 0.4rem !important;
+}
+.backtop > span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/button-top.png) no-repeat center;
+    display: inline-block;
+    border-radius: 50%;
+    background-size: 120% 120%;
+    cursor: pointer;
+}
 </style>

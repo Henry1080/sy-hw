@@ -1,0 +1,1113 @@
+{
+    "code": 200,
+    "status": "成功",
+    "leftlist": [
+        {
+            "id": "01",
+            "txt": "新品"
+        },
+        {
+            "id": "02",
+            "txt": "手机"
+        },
+        {
+            "id": "03",
+            "txt": "智能穿戴&VR"
+        },
+        {
+            "id": "04",
+            "txt": "耳机音箱眼镜"
+        },
+        {
+            "id": "05",
+            "txt": "智慧屏"
+        },
+        {
+            "id": "06",
+            "txt": "笔记本"
+        },
+        {
+            "id": "07",
+            "txt": "平板"
+        },
+        {
+            "id": "08",
+            "txt": "智能路由"
+        },
+        {
+            "id": "09",
+            "txt": "通用配件"
+        },
+        {
+            "id": "010",
+            "txt": "专属配件"
+        },
+        {
+            "id": "011",
+            "txt": "生态产品"
+        },
+        {
+            "id": "012",
+            "txt": "美食饮酒"
+        },
+        {
+            "id": "013",
+            "txt": "增值服务"
+        },
+        {
+            "id": "014",
+            "txt": "企业商用"
+        }
+    ],
+    "rightlist": [
+        {
+            "id": "11",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/78696257480615269687.jpg",
+            "headimg2": "",
+            "title": "手机",
+            "contentlist": [
+                {
+                    "id": "a211",
+                    "img": "https://res.vmallres.com/pimages/product/6941487210961/428_428_A3C6ADC52EF33D15ADB8133CAABB7D93FAC596BC57F79FE4mp.png",
+                    "name": "HUAWEI nova 8"
+                },
+                {
+                    "id": "a212",
+                    "img": "https://res.vmallres.com/pimages/product/6941487211234/428_428_2A5D912EFE560FBC1C51665C1D6762BADAC0732AB564A645mp.png",
+                    "name": "HUAWEI nova 8 pro"
+                },
+                {
+                    "id": "a213",
+                    "img": "https://res.vmallres.com/pimages/product/6941487210978/428_428_9B6917F54FD19C85873D683A0118C9EE61CF70B260CE761Bmp.png",
+                    "name": "HUAWEI Mate 40"
+                },
+                {
+                    "id": "a214",
+                    "img": "https://res.vmallres.com/pimages/product/6941487207169/428_428_AFC179E0F69ADCA5310E473170896895376AC63839325375mp.png",
+                    "name": "HUAWEI Mate 40 Pro"
+                },
+                {
+                    "id": "a215",
+                    "img": "https://res.vmallres.com/pimages/product/6941487207626/428_428_64A6BB5D9B19C61B2C8724E1D12E02E0DF740091C034401Bmp.png",
+                    "name": "HUAWEI Mate 40 Pro+"
+                },
+                {
+                    "id": "a216",
+                    "img": "https://res.vmallres.com/pimages/product/6941487207602/428_428_31F32E699B0AFBCE5C66C3E188441CCAA575145E4E4A20F5mp.png",
+                    "name": "HUAWEI Mate 40 RS保时捷"
+                },
+                {
+                    "id": "a217",
+                    "img": "https://res.vmallres.com/pimages/product/6901443415830/428_428_3FEB0BF538D41FDC1B5E8EC86F1732B42C21B76E453EF914mp.png",
+                    "name": "HUAWEI Mate 30E Pro"
+                },
+                {
+                    "id": "a218",
+                    "img": "https://res.vmallres.com/pimages/product/6941487212811/428_428_4C8EE6806EDE629C0082E7D08CA7FA9FDF4155E790051011mp.png",
+                    "name": "华为畅享20 SE"
+                }
+            ],
+            "title2": "笔记本+智慧屏",
+            "contentlist2": [
+                {
+                    "id": "a219",
+                    "img": "https://res.vmallres.com/pimages/product/6941487210152/428_428_C002DB8738E4BEC28D56A34FF70B40388B416F9E7D8ED25Cmp.png",
+                    "name": "【新品】华为智慧屏S"
+                },
+                {
+                    "id": "a2120",
+                    "img": "https://res.vmallres.com/pimages/product/6901443404957/428_428_F0454FD5E07DCF30177851B9A46280750EA026433D290939mp.png",
+                    "name": "【新品】HUAWEI MateBook X"
+                }
+            ],
+            "title3": "平板+穿戴",
+            "contentlist3": [
+                {
+                    "id": "a2121",
+                    "img": "https://res.vmallres.com/pimages/product/6972453166487/428_428_9EE4859B0C0B4B48B72B822322C89281E01FD29D24C96C11mp.png",
+                    "name": "WATCH GT 2 Pro"
+                },
+                {
+                    "id": "a2122",
+                    "img": "https://res.vmallres.com/pimages/product/6941487204977/428_428_9854D71AF36A4AD887D175D66190303641FABF706E102EE6mp.png",
+                    "name": "MatePad 10.4 5G"
+                },
+                {
+                    "id": "a2123",
+                    "img": "https://res.vmallres.com/pimages/product/6972453166371/428_428_7E2E49170E075F651B23657D6EBCE77CBB6E8FFDF315EB21mp.png",
+                    "name": "MatePad 10.8"
+                },
+                {
+                    "id": "a2124",
+                    "img": "https://res.vmallres.com/pimages/product/6972453164155/428_428_3E4CBDE1F2786A559FB292A742C02DB332C5BFC42F212AA4mp.png",
+                    "name": "华为手环 B6"
+                },
+                {
+                    "id": "a2125",
+                    "img": "https://res.vmallres.com/pimages/product/6901443404827/428_428_943DF2FA4B0A8337A9C29AD466CB6BB1A44814B09A302482mp.png",
+                    "name": "华为畅享平板 2"
+                },
+                {
+                    "id": "a2126",
+                    "img": "https://res.vmallres.com/pimages/product/6972453165985/428_428_93BCD651C90D2B5EFD779DB353F1A2E36DFAE529FA49026Emp.png",
+                    "name": "【新品】华为儿童手表 4X"
+                },
+                {
+                    "id": "a2127",
+                    "img": "https://res.vmallres.com/pimages/product/6901443403011/428_428_A527FAFACA39029CB05262367AFDBAE6729FFFE0515F92D4mp.png",
+                    "name": "MatePad Pro 5G"
+                },
+                {
+                    "id": "a2128",
+                    "img": "https://res.vmallres.com/pimages/product/6901443320202/428_428_A8033BCC8CCFFF9199371E71953A1B8B9730D5ACACA293D0mp.png",
+                    "name": "HUAWEI WATCH GT 2"
+                },
+                {
+                    "id": "2129",
+                    "img": "https://res.vmallres.com/pimages/product/6901443330553/428_428_FE282FB10458C67122DAEE93D7B13C30AE573A59E3CF7BB8mp.png",
+                    "name": "华为平板 M6 8.4英寸"
+                }
+            ],
+            "title4": "配件",
+            "contentlist4": [
+                {
+                    "id": "a2130",
+                    "img": "https://res.vmallres.com/pimages/product/6941487204663/428_428_F934DED52CF13A08A05D707066DBF2BF3E1214C545FC7C6Amp.png",
+                    "name": "HUAWEI FreeBuds Studio 无线头戴耳机"
+                },
+                {
+                    "id": "a2131",
+                    "img": "https://res.vmallres.com/pimages/product/6901443414277/428_428_8D4CA852B05FD61B83CC56E25A8FE1331DA7C16C76481D44mp.png",
+                    "name": "【新品】Sound 音箱"
+                },
+                {
+                    "id": "a2132",
+                    "img": "https://res.vmallres.com/pimages/product/6941487202256/428_428_CAEB4B495D814F32C132C8E65B45EBA5FEACC985B5D26A37mp.png",
+                    "name": "HUAWEI FreeBuds Pro"
+                },
+                {
+                    "id": "a2133",
+                    "img": "https://res.vmallres.com/pimages/product/6972453168856/428_428_EA57A4409F40F4C90B2DA3C4EEB9039F4815F65ADA0EDEFEmp.png",
+                    "name": "FreeLace Pro 无线耳机"
+                },
+                {
+                    "id": "a2134",
+                    "img": "https://res.vmallres.com/pimages/product/6972453168306/428_428_5198730931DE4D621C972640AC6715820BB08C10ACC0B98Cmp.png",
+                    "name": "华为超级快充立式无线充电器 （Max 50W）"
+                },
+                {
+                    "id": "a2135",
+                    "img": "https://res.vmallres.com/pimages/product/6972453168368/428_428_A157FA9F2D5D02DCBB0F5F3A13B24D4659328F18B87C7CBCmp.png",
+                    "name": "华为超级快充无线车充 （Max 50W）"
+                },
+                {
+                    "id": "a2136",
+                    "img": "https://res.vmallres.com/pimages/product/6901443402496/428_428_3666114BC47172E83C0C27CA23616B1CB07C5D82DA533F38mp.png",
+                    "name": "HUAWEI FreeGO便携蓝牙音箱"
+                },
+                {
+                    "id": "a2137",
+                    "img": "https://res.vmallres.com/pimages/product/6972453165633/428_428_2F6E47F0944BA4EA9C3CFE36E8DE912535C8972DFC183477mp.png",
+                    "name": "华为三脚架自拍杆 Pro"
+                },
+                {
+                    "id": "a2138",
+                    "img": "https://res.vmallres.com/pimages/product/6941487201174/428_428_90FB236AE9C3AA78A44B062D6469D68D9CACD0D0A2F1B2BCmp.png",
+                    "name": "华为6A数据线"
+                },
+                {
+                    "id": "a2139",
+                    "img": "https://res.vmallres.com/pimages/product/6941487202003/428_428_38662CFDCF11ACDC32FAD6E64EA489094AD9BD75AFF12DB7mp.png",
+                    "name": "华为12000 66W SuperCharge多协议双向超级快充移动电源"
+                },
+                {
+                    "id": "a2140",
+                    "img": "https://res.vmallres.com/pimages/product/6972453168634/428_428_92BB096EBEEC6DFEAA6476B9B038BF6CAF61537AB4B9B7CBmp.png",
+                    "name": "华为超级快充车载充电器（Max 66W)"
+                },
+                {
+                    "id": "a2141",
+                    "img": "https://res.vmallres.com/pimages/product/6972453168740/428_428_12170915D9063BE7546D4B3C388F6924F7B3CB914473E596mp.png",
+                    "name": "HUAWEI M-Pen 2"
+                },
+                {
+                    "id": "a2142",
+                    "img": "https://res.vmallres.com/pimages/product/6941565904188/428_428_5EBFEEA2A6E0F2EDC685A80857B82EB99A3F2B06461F637Dmp.png",
+                    "name": "DJI OM 4"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/26048018480611084062.jpg",
+            "headimg2": "",
+            "title": "HUAWEI P系列",
+            "contentlist": [
+                {
+                    "id": "b221",
+                    "img": "https://res.vmallres.com/pimages/product/6901443398010/428_428_5BE5026C5A8835CD516910ADCAC66185782AC52F8535EEF7mp.png",
+                    "name": "HUAWEI P40 Pro+"
+                },
+                {
+                    "id": "b222",
+                    "img": "https://res.vmallres.com/pimages/product/6901443381395/428_428_3D49606EC05C3B4ED89368F84D0B672CF5B647187113B9A2mp.png",
+                    "name": "HUAWEI P40 5G"
+                },
+                {
+                    "id": "b223",
+                    "img": "https://res.vmallres.com/pimages/product/6901443381562/428_428_3DC878A1E93F224EA2FE1EE52785ED4F05586CCA2B1EA98Amp.png",
+                    "name": "HUAWEI P40 Pro 5G"
+                }
+            ],
+            "title2": "HUAWEI Mate系列",
+            "contentlist2": [
+                {
+                    "id": "b224",
+                    "img": "https://res.vmallres.com/pimages/product/6941487210978/428_428_9B6917F54FD19C85873D683A0118C9EE61CF70B260CE761Bmp.png",
+                    "name": "HUAWEI Mate 40"
+                },
+                {
+                    "id": "b225",
+                    "img": "https://res.vmallres.com/pimages/product/6941487207169/428_428_AFC179E0F69ADCA5310E473170896895376AC63839325375mp.png",
+                    "name": "HUAWEI Mate 40 Pro"
+                },
+                {
+                    "id": "b226",
+                    "img": "https://res.vmallres.com/pimages/product/6941487207626/428_428_64A6BB5D9B19C61B2C8724E1D12E02E0DF740091C034401Bmp.png",
+                    "name": "HUAWEI Mate 40 Pro+"
+                },
+                {
+                    "id": "b227",
+                    "img": "https://res.vmallres.com/pimages/product/6941487207602/428_428_31F32E699B0AFBCE5C66C3E188441CCAA575145E4E4A20F5mp.png",
+                    "name": "HUAWEI Mate 40 RS保时捷"
+                },
+                {
+                    "id": "b228",
+                    "img": "https://res.vmallres.com/pimages/product/6901443415670/428_428_02CAB92CA3E7CA5A99995191A776C00D87C32CC39A4B1605mp.png",
+                    "name": "HUAWEI Mate 30E Pro"
+                },
+                {
+                    "id": "b229",
+                    "img": "https://res.vmallres.com/pimages/product/6901443353224/428_428_BBB155FB6C09744712785FB380EA616E967F4F8F8CAEC76Amp.png",
+                    "name": "HUAWEI Mate 30 Pro 5G"
+                },
+                {
+                    "id": "b2210",
+                    "img": "https://res.vmallres.com/pimages/product/6901443376506/428_428_5A4871DB483B6E0D92CA527C3D367A6A32E2B433F5870412mp.png",
+                    "name": "HUAWEI Mate Xs 5G"
+                },
+                {
+                    "id": "b2211",
+                    "img": "https://res.vmallres.com/pimages/product/6901443353347/428_428_484D42DB83550E7CF59813E6BE3E2A9A4CF07CF0E75E32A3mp.png",
+                    "name": "HUAWEI Mate 30 RS 保时捷设计"
+                }
+            ],
+            "title3": "HUAWEI nova系列",
+            "contentlist3": [
+                {
+                    "id": "b2212",
+                    "img": "https://res.vmallres.com/pimages/product/6941487210961/428_428_A3C6ADC52EF33D15ADB8133CAABB7D93FAC596BC57F79FE4mp.png",
+                    "name": "HUAWEI nova 8"
+                },
+                {
+                    "id": "b2213",
+                    "img": "https://res.vmallres.com/pimages/product/6941487211234/428_428_2A5D912EFE560FBC1C51665C1D6762BADAC0732AB564A645mp.png",
+                    "name": "HUAWEI nova 8 pro"
+                },
+                {
+                    "id": "b2214",
+                    "img": "https://res.vmallres.com/pimages/product/6941487203314/428_428_7C0838B18CFE52544B5D3FF0E3EC806EA35766D4F7BC436Dmp.png",
+                    "name": "HUAWEI nova 8 SE"
+                },
+                {
+                    "id": "b2215",
+                    "img": "https://res.vmallres.com/pimages/product/6901443418442/428_428_216F9FDF0D48F497D8DFA2ABAC4FE07DB218209AA7389AB5mp.png",
+                    "name": "HUAWEI nova 7 SE 活力版"
+                },
+                {
+                    "id": "b2216",
+                    "img": "https://res.vmallres.com/pimages/product/6901443393039/428_428_7484AB32CD916B697FED5DE343A4384247FC1B9D7159B022mp.png",
+                    "name": "HUAWEI nova 7 Pro"
+                },
+                {
+                    "id": "b2217",
+                    "img": "https://res.vmallres.com/pimages/product/6901443393268/428_428_D294EE967746E5FDC3B80AA4E308C064B75F70818BB5BB17mp.png",
+                    "name": "HUAWEI nova 7"
+                }
+            ],
+            "title4": "华为畅享系列",
+            "contentlist4": [
+                {
+                    "id": "b2218",
+                    "img": "https://res.vmallres.com/pimages/product/6941487212811/428_428_4C8EE6806EDE629C0082E7D08CA7FA9FDF4155E790051011mp.png",
+                    "name": "华为畅享20 SE"
+                },
+                {
+                    "id": "b2219",
+                    "img": "https://res.vmallres.com/pimages/product/6941487200191/428_428_21B4AF84D0CA78847E127DFBBF4CBB32EA4AAD1345F94E0Dmp.png",
+                    "name": "华为畅享20 5G"
+                },
+                {
+                    "id": "b2220",
+                    "img": "https://res.vmallres.com/pimages/product/6941487202300/428_428_945B5EDC4DEF7252145D4D12713FD7C98208F1F5B3026C9Cmp.png",
+                    "name": "华为畅享20 Plus 5G"
+                },
+                {
+                    "id": "b2221",
+                    "img": "https://res.vmallres.com/pimages/product/6972453164919/428_428_A303DC53A5BEBF25E73656C74DF5B1D889992937425FE323mp.png",
+                    "name": "华为畅享Z 5G"
+                },
+                {
+                    "id": "b2222",
+                    "img": "https://res.vmallres.com/pimages/product/6972453165077/428_428_C089F3BE3BD266BAC2B777E1190F59241E0CE65223CA694Bmp.png",
+                    "name": "华为畅享20 Pro 5G"
+                },
+                {
+                    "id": "b2223",
+                    "img": "https://res.vmallres.com/pimages/product/6972453161895/428_428_52A1B8C983AFB0C83843A0FB1369D8D62443AA1BF93B3F9Dmp.png",
+                    "name": "华为畅享10e"
+                },
+                {
+                    "id": "b2224",
+                    "img": "https://res.vmallres.com/pimages/product/6901443333479/428_428_13408F907ADBAB6402C76991A2E4AA2729690E5E56FFEA50mp.png",
+                    "name": "华为畅享10"
+                },
+                {
+                    "id": "b2225",
+                    "img": "https://res.vmallres.com/pimages/product/6901443332250/428_428_63F422DB87EE9FEEDB3EEC504E8DC8AB5586BD3FD1EC18D1mp.png",
+                    "name": "华为畅享10 Plus"
+                },
+                {
+                    "id": "b2226",
+                    "img": "https://res.vmallres.com/pimages/product/6901443352692/428_428_F0C1B310EA3A614216EAF26C46536BE77BA49AC16AC3EFCBmp.png",
+                    "name": "华为畅享10S"
+                }
+            ],
+            "title5": "HUAWEI 麦芒系列",
+            "contentlist5": [
+                {
+                    "id": "b2227",
+                    "img": "https://res.vmallres.com/pimages/product/6972453166975/428_428_A0F7A47E35110F7E695A3232D32344F0BBBF144D04917AAEmp.png",
+                    "name": "华为麦芒 9 5G"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/60348703601610784306.png",
+            "headimg2": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/93525803601610852539.png",
+            "title": "手表",
+            "contentlist": [
+                {
+                    "id": "c231",
+                    "img": "https://res.vmallres.com/pimages/product/6972453167255/428_428_5A0F299CEB8FD02EC475984195F40859A18690A29D3F4641mp.png",
+                    "name": "【新品】HUAWEI WATCH FIT"
+                },
+                {
+                    "id": "c232",
+                    "img": "https://res.vmallres.com/pimages/product/6972453166487/428_428_9EE4859B0C0B4B48B72B822322C89281E01FD29D24C96C11mp.png",
+                    "name": "华为手表 GT 2 Pro"
+                },
+                {
+                    "id": "c233",
+                    "img": "https://res.vmallres.com/pimages/product/6901443320202/428_428_A8033BCC8CCFFF9199371E71953A1B8B9730D5ACACA293D0mp.png",
+                    "name": "HUAWEI WATCH GT 2"
+                },
+                {
+                    "id": "c234",
+                    "img": "https://res.vmallres.com/pimages/product/6901443375271/428_428_4C7F8433FD4422B64C447BCB4002AD184DDFE3771DD41909mp.png",
+                    "name": "HUAWEI WATCH GT 2e"
+                },
+                {
+                    "id": "c235",
+                    "img": "https://res.vmallres.com/pimages/product/6972453165985/428_428_93BCD651C90D2B5EFD779DB353F1A2E36DFAE529FA49026Emp.png",
+                    "name": "华为儿童手表 4X"
+                },
+                {
+                    "id": "c236",
+                    "img": "https://res.vmallres.com/pimages/product/6901443383214/428_428_22F2E26803F9236D8943B1FF5F06B1B553D0CCFD83A1A49Dmp.png",
+                    "name": "华为儿童手表 3 Pro 超能版"
+                },
+                {
+                    "id": "c237",
+                    "img": "https://res.vmallres.com/pimages/product/6901443254330/428_428_BADA46563239499321B9228CC3577CBDF158AC209C165AF0mp.png",
+                    "name": "华为儿童手表 3 Pro"
+                },
+                {
+                    "id": "c238",
+                    "img": "https://res.vmallres.com/pimages/product/6901443309177/428_428_8CFE34C8B9A759E75D855553576F28162679C6C85C4BD2E1mp.png",
+                    "name": "华为儿童手表 3s"
+                },
+                {
+                    "id": "c239",
+                    "img": "https://res.vmallres.com/pimages/product/6901443278374/428_428_1554811673276mp.png",
+                    "name": "华为儿童手表 3"
+                }
+            ],
+            "title2": "手环",
+            "contentlist2": [
+                {
+                    "id": "c2310",
+                    "img": "https://res.vmallres.com/pimages/product/6972453164216/428_428_DFAF0EE02C77C1232C670D742E21B84F8539CD6154595BF1mp.png",
+                    "name": "华为手环 B6"
+                },
+                {
+                    "id": "c2311",
+                    "img": "https://res.vmallres.com/pimages/product/6901443312320/428_428_A770D51DE182394A7777EF3F6D29F70A4DD0E6B3F2E8D252mp.png",
+                    "name": "华为手环 B5"
+                },
+                {
+                    "id": "c2312",
+                    "img": "https://res.vmallres.com/pimages/product/6901443360277/428_428_EC4E2F03BF69EFDF92BDB185547A4C733BA8AE3781105B39mp.png",
+                    "name": "华为手环 4 Pro"
+                },
+                {
+                    "id": "c2313",
+                    "img": "https://res.vmallres.com/pimages/product/6901443330133/428_428_8503E557FBFE9758B234DEB630AD0B78C413F8760A89EA8Amp.png",
+                    "name": "华为手环4"
+                },
+                {
+                    "id": "c2314",
+                    "img": "https://res.vmallres.com/pimages/product/6901443408115/428_428_C198AB8A054D7A38449FDD23A2A41162C377BE0830F42667mp.png",
+                    "name": "【新品】华为手环 4e 活力款"
+                },
+                {
+                    "id": "c2315",
+                    "img": "https://res.vmallres.com/pimages/product/6901443264865/428_428_F001B47410B271832D2492CE648CFE733A6E615D9FBBD06Amp.png",
+                    "name": "华为手环 3e"
+                }
+            ],
+            "title3": "智能健康配件",
+            "contentlist3": [
+                {
+                    "id": "c2316",
+                    "img": "https://res.vmallres.com/pimages/product/6901443347049/428_428_8C4FDCA2E0EDFA3E3263CE7A28441652C073E5682B8179A2mp.png",
+                    "name": ""
+                },
+                {
+                    "id": "c2317",
+                    "img": "https://res.vmallres.com/pimages/product/6941487201433/428_428_71B17AE02362129AE67DE3F104ACC47C43CE9F7BE01FE459mp.png",
+                    "name": "【新品】华为体脂秤 3"
+                },
+                {
+                    "id": "c2318",
+                    "img": "https://res.vmallres.com/pimages/product/6901443288267/428_428_4FE446A2C9353FAF353E1F7DAE83E538247947127F7E4646mp.png",
+                    "name": "华为智能体脂秤"
+                },
+                {
+                    "id": "c2319",
+                    "img": "https://res.vmallres.com/pimages/product/6901443326815/428_428_37C8CF03401F10C09EF2D8D23182A48DC3E505A8C78245D7mp.png",
+                    "name": "华为智能体脂秤 WiFi版"
+                }
+            ],
+            "title4": "VR",
+            "contentlist4": [
+                {
+                    "id": "c2320",
+                    "img": "https://res.vmallres.com/pimages/product/6941487200979/428_428_1BBA99EC65D5E46D2630F4ED1510BAD8C8D9B6C1626D1003mp.png",
+                    "name": "HUAWEI GM眼镜新品"
+                },
+                {
+                    "id": "c2321",
+                    "img": "https://res.vmallres.com/pimages/product/6901443362950/428_428_560FE764C43FB2FFC29E80E172525294BEA2BBE26DEBF3ECmp.png",
+                    "name": "HUAWEI VR Glass"
+                },
+                {
+                    "id": "c2322",
+                    "img": "https://res.vmallres.com/pimages/product/4260184669592/428_428_340B6727826CA9EDED797D9C4EA3C6A1B5BF6A6096A51778mp.png",
+                    "name": "贝尔金VR数据线"
+                }
+            ],
+            "title5": "DFH生态",
+            "contentlist5": [
+                {
+                    "id": "c2323",
+                    "img": "https://res.vmallres.com/pimages/product/6972480870005/428_428_2FC1A6065CCE039142D6A71DF621401716C41ED6559108D1mp.png",
+                    "name": "佑美家用静音跑步机"
+                },
+                {
+                    "id": "c2324",
+                    "img": "https://res.vmallres.com/pimages/product/6927819509002/428_428_D660ABC0B0AED76F4D6473F700EFAE420F967331FF3A8FFEmp.png",
+                    "name": "舒华A9跑步机"
+                },
+                {
+                    "id": "c2325",
+                    "img": "https://res.vmallres.com/pimages/product/6927819505332/428_428_24390023F2F688C2B1BAEA243F5E6850BDDA7EA2DBD3108Emp.png",
+                    "name": "舒华X6i智能跑步机"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/22329392870619392322.png",
+            "headimg2": "",
+            "title": "耳机音箱分类",
+            "contentlist": [
+                {
+                    "id": "d241",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/95564887700618846559.png",
+                    "name": "真无线耳机"
+                },
+                {
+                    "id": "d242",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/dGNL4onTQ284YCRsBHcL.png",
+                    "name": "智能音箱"
+                },
+                {
+                    "id": "d243",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/rUNPnm7nzsDsNJh0bNtT.png",
+                    "name": "智能眼镜"
+                },
+                {
+                    "id": "d244",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/80485887700618858408.png",
+                    "name": "蓝牙耳机"
+                },
+                {
+                    "id": "d245",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/4f6kWrsguP6PFSUpbQGX.jpg",
+                    "name": "有线耳机"
+                },
+                {
+                    "id": "d246",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/91917887700618871919.png",
+                    "name": "蓝牙音箱"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/58983281101618238985.png",
+            "headimg2": "",
+            "title": "智慧屏",
+            "contentlist": [
+                {
+                    "id": "e251",
+                    "img": "https://res.vmallres.com/pimages/product/6941487210169/428_428_D6D5D9F5EB593FBAA77207288884A42B28AC2C3569C08C38mp.png",
+                    "name": "【新品】华为智慧屏S"
+                },
+                {
+                    "id": "e252",
+                    "img": "https://res.vmallres.com/pimages/product/6941487210152/428_428_C002DB8738E4BEC28D56A34FF70B40388B416F9E7D8ED25Cmp.png",
+                    "name": "华为智慧屏S55"
+                },
+                {
+                    "id": "e253",
+                    "img": "https://res.vmallres.com/pimages/product/6941487210169/428_428_D6D5D9F5EB593FBAA77207288884A42B28AC2C3569C08C38mp.png",
+                    "name": "华为智慧屏S65"
+                },
+                {
+                    "id": "e254",
+                    "img": "https://res.vmallres.com/pimages/product/6941487211173/428_428_87599FE3B13A72582CC2C554CE2B9931CD8569FD275C84F1mp.png",
+                    "name": "华为智慧屏S75"
+                },
+                {
+                    "id": "e255",
+                    "img": "https://res.vmallres.com/pimages/product/6901443385669/428_428_FE4B22020F44311F8B2C1855BDBC5E061FD4A35898888B92mp.png",
+                    "name": "华为智慧屏"
+                },
+                {
+                    "id": "e256",
+                    "img": "https://res.vmallres.com/pimages/product/6901443387588/428_428_1293C2C791F87BE0948D95135021BC202D4B20A735051BDFmp.png",
+                    "name": "华为智慧屏 V55i"
+                },
+                {
+                    "id": "e257",
+                    "img": "https://res.vmallres.com/pimages/product/6901443361557/428_428_9CA7B99629C486B82A64D8EBCCB6BF5BDB211AA893F42F55mp.png",
+                    "name": "华为智慧屏V65"
+                },
+                {
+                    "id": "e258",
+                    "img": "https://res.vmallres.com/pimages/product/6901443385669/428_428_FE4B22020F44311F8B2C1855BDBC5E061FD4A35898888B92mp.png",
+                    "name": "华为智慧屏 V65i"
+                },
+                {
+                    "id": "e259",
+                    "img": "https://res.vmallres.com/pimages/product/6901443363834/428_428_F5914787EADD22E44AE873EB26A9DEE719BA467ACED12261mp.png",
+                    "name": "华为智慧屏 V75"
+                },
+                {
+                    "id": "e2510",
+                    "img": "https://res.vmallres.com/pimages/product/6901443390496/428_428_36F72EB747591D900CAC22B69D6537E1C04D5C485EB66BE0mp.png",
+                    "name": "华为智慧屏X65"
+                }
+            ],
+            "title2": "智慧屏配件",
+            "contentlist2": [
+                {
+                    "id": "e2511",
+                    "img": "https://res.vmallres.com/pimages/product/6901443328901/428_428_EA3F9877BF9D4BB4F8DD70CF8F626B5B18CC3A1344A8314Amp.png",
+                    "name": "华为智慧屏触控遥控器"
+                },
+                {
+                    "id": "e2512",
+                    "img": "https://res.vmallres.com/pimages/product/6901443330294/428_428_96EA31E2F015C56E3F9385590A9CA5AB3B330CE493B2B038mp.png",
+                    "name": "直播精灵"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/57297311501611379275.png",
+            "headimg2": "",
+            "title": "笔记本电脑",
+            "contentlist": [
+                {
+                    "id": "f261",
+                    "img": "https://res.vmallres.com/pimages/product/6941487208159/428_428_0CA3A957E88044DD39123396C850743AED2D2EAA2DBFBD61mp.png",
+                    "name": "MateBook D 15 2021款"
+                },
+                {
+                    "id": "f262",
+                    "img": "https://res.vmallres.com/pimages/product/6941487208081/428_428_09DFA911A97EFB4032A8BDD9C68C192FCA41FE0F90663A57mp.png",
+                    "name": "MateBook D 14 2021款"
+                },
+                {
+                    "id": "f263",
+                    "img": "https://res.vmallres.com/pimages/product/6901443404926/428_428_EC057BA9FC304F37A60287C1D9E761FACF0EF559795D340Fmp.png",
+                    "name": "MateBook X"
+                },
+                {
+                    "id": "f264",
+                    "img": "https://res.vmallres.com/pimages/product/6972453160119/428_428_9DF1559494B296D8A911EA0BA6111B0BCAFAB6CCE563F3E0mp.png",
+                    "name": "MateBook X Pro"
+                },
+                {
+                    "id": "f265",
+                    "img": "https://res.vmallres.com/pimages/product/6901443390243/428_428_CB59BC49A4E1F60D2A1F4C6C349E591D1B3F546807A34180mp.png",
+                    "name": "MateBook 14"
+                },
+                {
+                    "id": "f266",
+                    "img": "https://res.vmallres.com/pimages/product/6901443364787/428_428_C9B18A59BF47EB682D021C75B9A14BE03E0A32138F719944mp.png",
+                    "name": "MateBook 13"
+                },
+                {
+                    "id": "f267",
+                    "img": "https://res.vmallres.com/pimages/product/6901443379521/428_428_1609817919D664E2310ED8BDE9685580CDD7341E722A087Bmp.png",
+                    "name": "MateBook B5-420"
+                },
+                {
+                    "id": "f268",
+                    "img": "https://res.vmallres.com/pimages/product/6901443380237/428_428_DD38CFC6038516C9B095AAB5E329DC3CD106A8A4D71318DAmp.png",
+                    "name": "MateBook B3-410"
+                },
+                {
+                    "id": "f269",
+                    "img": "https://res.vmallres.com/pimages/product/6901443385157/428_428_8D7AAA6FDF2BF113821FE517AD98AC2C439ADE7E09D0276Bmp.png",
+                    "name": "MateBook B3-510"
+                },
+                {
+                    "id": "f2610",
+                    "img": "https://res.vmallres.com/pimages/product/6941487205134/428_428_30D57E593C497CA0AD4ECF1C4418D9757C1868D9409138E5mp.png",
+                    "name": "华为显示器"
+                }
+            ],
+            "title2": "笔记本配件",
+            "contentlist2": [
+                {
+                    "id": "f2611",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/1542612193434.jpg",
+                    "name": "笔记本配件"
+                }
+            ],
+            "title3": "电脑包",
+            "contentlist3": [
+                {
+                    "id": "f2612",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/39054653489515645093.jpg",
+                    "name": "电脑包"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/95343501150610534359.png",
+            "headimg2": "",
+            "title": "平板",
+            "contentlist": [
+                {
+                    "id": "g271",
+                    "img": "https://res.vmallres.com/pimages/product/6901443319893/428_428_1560822511725mp.png",
+                    "name": "M6 8.4"
+                },
+                {
+                    "id": "g272",
+                    "img": "https://res.vmallres.com/pimages/product/6901443404834/428_428_51E7BCE06968511DB9E4827C095F6D0B45522C66F9F48CF7mp.png",
+                    "name": "华为畅享平板 2"
+                },
+                {
+                    "id": "g273",
+                    "img": "https://res.vmallres.com/pimages/product/6901443321209/428_428_03E36F3811C5C3E97E89CB7C6CD937E843B234BADFEE705Fmp.png",
+                    "name": "M5 青春版"
+                },
+                {
+                    "id": "g274",
+                    "img": "https://res.vmallres.com/pimages/product/6941487206308/428_428_EA5D5B67B1B1792F155612C626B44B82DC3CC735A3DCCB51mp.png",
+                    "name": "MatePad 10.4"
+                },
+                {
+                    "id": "g275",
+                    "img": "https://res.vmallres.com/pimages/product/6972453166364/428_428_03CCFFACC94BF03B44B754C44E6D973AA1B04C377CF96336mp.png",
+                    "name": "MatePad 10.8"
+                },
+                {
+                    "id": "g276",
+                    "img": "https://res.vmallres.com/pimages/product/6901443362110/428_428_71C3847379D6129FF79910EC5A1F4DC0318CE1667EE649CFmp.png",
+                    "name": "MatePad Pro"
+                }
+            ],
+            "title2": "平板配件",
+            "contentlist2": [
+                {
+                    "id": "g277",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/20743679069517634702.png",
+                    "name": "平板配件"
+                }
+            ]
+
+        },
+        {
+            "id": "18",
+            "headimg1": "",
+            "headimg2": "",
+            "title": "智能家居分类",
+            "contentlist": [
+                {
+                    "id": "h281",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/WndsEcV9JSRJrYSKj3ys.png",
+                    "name": "智能路由"
+                },
+                {
+                    "id": "h282",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/DxrKEIgN696f9EnU80nK.jpg",
+                    "name": "移动路由"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/63020897440619802036.jpg",
+            "headimg2": "",
+            "title": "通用配件分类",
+            "contentlist": [
+                {
+                    "id": "i291",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/OddKpYdAQ6bViRPUZSLD.png",
+                    "name": "充电器/线材"
+                },
+                {
+                    "id": "i292",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/nc74erv7o7rkwqsqawwr.jpg",
+                    "name": "移动电源"
+                },
+                {
+                    "id": "i293",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/C0HSdSX62HhxGY4QgWmc.png",
+                    "name": "智能健康配件"
+                },
+                {
+                    "id": "i294",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/tMTYhuobWfdrLYHLzeDF.png",
+                    "name": "自拍杆/支架"
+                },
+                {
+                    "id": "i295",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/1540606483683.jpg",
+                    "name": "U盘/存储卡"
+                },
+                {
+                    "id": "i296",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/1500717893806.jpg",
+                    "name": "生活周边"
+                }
+            ]
+        },
+        {
+            "id": "110",
+            "headimg1": "",
+            "headimg2": "",
+            "title": "专属配件分类",
+            "contentlist": [
+                {
+                    "id": "j2101",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/ul4b6yk23wdpcs6uqfjj.jpg",
+                    "name": "保护壳"
+                },
+                {
+                    "id": "j2102",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/sei1slzrl5jfuoj7gxgp.jpg",
+                    "name": "保护套"
+                },
+                {
+                    "id": "j2103",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/1511940620204.jpg",
+                    "name": "贴膜"
+                },
+                {
+                    "id": "j2104",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/1523171345598.jpg",
+                    "name": "表带"
+                },
+                {
+                    "id": "j2105",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/1542612257764.jpg",
+                    "name": "笔记本配件"
+                },
+                {
+                    "id": "j2106",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/sievsqpgdpcmvitgg4an.jpg",
+                    "name": "触控笔/取卡针"
+                },
+                {
+                    "id": "j2107",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/mNw6Hax3NKmwsoetsxJj.jpg",
+                    "name": "智慧屏配件"
+                },
+                {
+                    "id": "j2108",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/99549653489515694599.jpg",
+                    "name": "电脑包"
+                }
+            ]
+        },
+        {
+            "id": "111",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/71716147001614161717.jpg",
+            "headimg2": "",
+            "title": "生态产品分类",
+            "contentlist": [
+                {
+                    "id": "k2111",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/NCWufSgzWpEAa6Ll56wx.png",
+                    "name": "智能灯光"
+                },
+                {
+                    "id": "k2112",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/SzvF7ex2qWF9QguEs6V0.png",
+                    "name": "安防门锁"
+                },
+                {
+                    "id": "k2113",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/EuCmcn8qQERMuclAPHfn.png",
+                    "name": "数码周边"
+                },
+                {
+                    "id": "k2114",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/2maXafK22CCiAC1CV01c.png",
+                    "name": "环境卫士"
+                },
+                {
+                    "id": "k2115",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/BCZ6lX8xBzPMtfA3ekLd.png",
+                    "name": "生活电器"
+                },
+                {
+                    "id": "k2116",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/weK5DVfaPiibfqmpF0sk.png",
+                    "name": "健康保健"
+                },
+                {
+                    "id": "k2117",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/TxeYWh6ThdTuhX9VTSNH.png",
+                    "name": "厨电卫浴"
+                },
+                {
+                    "id": "k2118",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/IOXSCE42c1Rl43uPBStx.png",
+                    "name": "影音娱乐"
+                },
+                {
+                    "id": "k2119",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/4FZWsJ5DqU4pdLCUhkCO.png",
+                    "name": "个护美妆"
+                },
+                {
+                    "id": "k21110",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/gr7gEkitTAqWwb2BIWv0.png",
+                    "name": "户外出行"
+                },
+                {
+                    "id": "k21111",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/Vp9yIfDsxmKCapqL2VkS.png",
+                    "name": "运动健身"
+                }
+            ]
+        },
+        {
+            "id": "112",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/24678619201611687642.jpg",
+            "headimg2": "",
+            "title": "甄选美酒",
+            "contentlist": [
+                {
+                    "id": "l2121",
+                    "img": "https://res.vmallres.com/pimages/product/7798078004213/428_428_D574ABBEA5D58BBF7E4E06D853D85B1A0A85E6F542F1A58Emp.png",
+                    "name": "唐克里斯托瓦将军"
+                },
+                {
+                    "id": "l2122",
+                    "img": "https://res.vmallres.com/pimages/product/3335200009278/428_428_72FF5BFE88D3242F38A8A8FAB8779986B2125ED494FD2ED9mp.png",
+                    "name": "嘉宝庄园"
+                },
+                {
+                    "id": "l2123",
+                    "img": "https://res.vmallres.com/pimages/product/3416140121678/428_428_C6D8DDBBB10BEE30581DF9558BEAA9AC2C81E3237F512CB2mp.png",
+                    "name": "雅酿丝女神之冠起泡"
+                },
+                {
+                    "id": "l2124",
+                    "img": "https://res.vmallres.com/pimages/product/7804315009405/428_428_EBF1308ED298AC75AD33016F9C6B9BA05CC710CA127573C5mp.png",
+                    "name": "火山特科卡美娜"
+                },
+                {
+                    "id": "l2125",
+                    "img": "https://res.vmallres.com/pimages/product/7798078000185/428_428_0E424E7F7E7842ED040FD58E0BB99530ACBB0A523BA1A55Bmp.png",
+                    "name": "唐克里斯托瓦马尔贝克"
+                },
+                {
+                    "id": "l2126",
+                    "img": "https://res.vmallres.com/pimages/product/7798078000512/428_428_89C71F2505AFAD1C45F413BB81F68BEE63B3D2437A5A0233mp.png",
+                    "name": "唐克里斯托瓦精选梅洛"
+                },
+                {
+                    "id": "l2127",
+                    "img": "https://res.vmallres.com/pimages/product/3148591700859/428_428_ACD183439BADE6925AE950B654AFFD67EC13D5B12A6F4E38mp.png",
+                    "name": "安德烈酒庄"
+                },
+                {
+                    "id": "l2128",
+                    "img": "https://res.vmallres.com/pimages/product/4791075002520/428_428_B1C970EB5FF3519F2BC90E4885BE1E647E4D7F2C5D5937D0mp.png",
+                    "name": "锡尔德早餐红茶"
+                },
+                {
+                    "id": "l2129",
+                    "img": "https://res.vmallres.com/pimages/product/4791075002490/428_428_4E74F6CC1C66DD8FDE0281C9BA629F686CFC64CC214367F6mp.png",
+                    "name": "锡尔德伯爵红茶"
+                },
+                {
+                    "id": "l21210",
+                    "img": "https://res.vmallres.com/pimages/product/9416050530915/428_428_D4D4243B62870F86DF26CF31518DAB104AC54FB803E47700mp.png",
+                    "name": "麦卢卡蜂蜜10+"
+                },
+                {
+                    "id": "l21211",
+                    "img": "https://res.vmallres.com/pimages/product/7804315003885/428_428_1156B160B22959C31EC8B9A9C79F56E6A79C0D2CDB04E708mp.png",
+                    "name": "火山长相思干白"
+                }
+            ],
+            "title2": "严选良食",
+            "contentlist2": [
+                {
+                    "id": "l21212",
+                    "img": "https://res.vmallres.com/pimages/product/8410179016108/428_428_0F211C16FAAA7BA2B869315DA4C1177A903D2D9DD7CE995Amp.png",
+                    "name": "伯爵葵花籽油*2"
+                },
+                {
+                    "id": "l21213",
+                    "img": "https://res.vmallres.com/pimages/product/6971404610192/428_428_CC97E32992E63E162B052C5A26E2F9F6C337B8C07A501385mp.png",
+                    "name": "有机五常大米"
+                },
+                {
+                    "id": "l21214",
+                    "img": "https://res.vmallres.com/pimages/product/9416050577811/428_428_37820CA6A3E1C9D03B17D6976E44F7F5D21B5A0A25868656mp.png",
+                    "name": "麦卢卡蜂蜜15+"
+                },
+                {
+                    "id": "l21215",
+                    "img": "https://res.vmallres.com/pimages/product/6971404610352/428_428_125045E829218A0EE247A589B1A06D502695EBCC82358D58mp.png",
+                    "name": "生态越光米"
+                },
+                {
+                    "id": "l21216",
+                    "img": "https://res.vmallres.com/pimages/product/9312631749670/428_428_7E28CD0F732751FE8B26359F408F95EFDE215734BB0DC9A4mp.png",
+                    "name": "迪尔玛庄园红茶*2"
+                },
+                {
+                    "id": "l21217",
+                    "img": "https://res.vmallres.com/pimages/product/9312631131680/428_428_2F11695C0DE0F9C4124A8D0F574DAA4D3747994A4E061083mp.png",
+                    "name": "迪尔玛高山红茶*2"
+                },
+                {
+                    "id": "l21218",
+                    "img": "https://res.vmallres.com/pimages/product/8410179009742/428_428_4B0BC84FB3FBCE5FBD2CF75D51B72CFBED3FA27E7E704DE4mp.png",
+                    "name": "莎贝瑞斯橄榄油"
+                },
+                {
+                    "id": "l21219",
+                    "img": "https://res.vmallres.com/pimages/product/9416050530816/428_428_7BC98CD4A10EDBC667322B8522565A32E60AA41B6011CF66mp.png",
+                    "name": "麦卢卡蜂蜜5+"
+                }
+            ]
+        },
+        {
+            "id": "113",
+            "headimg1": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/yd2asNLDobzoHNEVQfRM.jpg",
+            "headimg2": "",
+            "title": "礼品包装精选商品",
+            "contentlist": [
+                {
+                    "id": "m2131",
+                    "img": "https://res.vmallres.com/pimages/product/6901443398027/428_428_C5B3EEB31BA081CF605FE04A1118DEF332F4C3003CC60ECEmp.png",
+                    "name": "HUAWEI P40 Pro+"
+                },
+                {
+                    "id": "m2132",
+                    "img": "https://res.vmallres.com/pimages/product/6901443381395/428_428_3D49606EC05C3B4ED89368F84D0B672CF5B647187113B9A2mp.png",
+                    "name": "HUAWEI P40"
+                }
+            ],
+            "title2": "增值卡类",
+            "contentlist2": [
+                {
+                    "id": "m2133",
+                    "img": "https://res.vmallres.com/pimages/product/GB3201070000301/428_428_1551320197740mp.png",
+                    "name": "华为花币卡"
+                },
+                {
+                    "id": "m2134",
+                    "img": "https://res.vmallres.com/pimages/product/GB3201070001602/428_428_1551319513422mp.png",
+                    "name": "华为视频卡"
+                },
+                {
+                    "id": "m2135",
+                    "img": "https://res.vmallres.com/pimages/product/GB3201070001701/428_428_1537522318471mp.png",
+                    "name": "华为音乐卡"
+                },
+                {
+                    "id": "m2136",
+                    "img": "https://res.vmallres.com/pimages/product/GB3201070002701/428_428_DBE5CBF1D3DC37BB1C42598EEE845AAB684B28FCD3FC8C41mp.png",
+                    "name": "华为云空间"
+                },
+                {
+                    "id": "m2137",
+                    "img": "https://res.vmallres.com/pimages/product/GB3201070004001/428_428_F8C8F1DDBA8555CD03CAA7DABA616EF18784D22A8CD3402Dmp.png",
+                    "name": "华为视频超钻套餐"
+                }
+            ]
+        },
+        {
+            "id": "114",
+            "headimg1": "",
+            "headimg2": "",
+            "title": "企业商用分类",
+            "contentlist": [
+                {
+                    "id": "n2141",
+                    "img": "https://res.vmallres.com/pimages/common/mobile/frontCategory/bh4oirapcc3xcanbbmz0.jpg",
+                    "name": "服务器"
+                },
+                {
+                    "id": "n2142",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/v1XflxYTreLlAPVKDfKi.png",
+                    "name": "AI 计算平台"
+                },
+                {
+                    "id": "n2143",
+                    "img": "https://res.vmallres.com/pimages/pages/mobile/frontCategory/86159893890619895168.png",
+                    "name": "企业智慧屏"
+                }
+            ]
+        }
+    ]
+}
