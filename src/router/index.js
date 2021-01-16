@@ -15,6 +15,11 @@ const routes = [
         name: 'Search',
         component: () => import('../views/Search.vue'),
     },
+    {
+        path: '/todetail',
+        name: 'Detail',
+        component: () => import('../views/Detail.vue'),
+    },
 ];
 
 const router = new VueRouter({

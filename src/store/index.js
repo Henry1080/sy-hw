@@ -9,8 +9,14 @@ export default new Vuex.Store({
         cartNumber: '',
         // 是否登录
         isdenglu: false,
+        // 动态组件名
+        componentName: 'mains',
     },
-    mutations: {},
+    mutations: {
+        btnClick(state, item) {
+            state.componentName = item;
+        },
+    },
     actions: {},
     modules: {},
 });

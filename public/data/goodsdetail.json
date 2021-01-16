@@ -1,0 +1,728 @@
+{
+    "code": 200,
+    "status": "success",
+    "goodsdetaillist": [
+        {
+            "id": "a1",
+            "swiperlist": [
+                {
+                    "id": "a1s1",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443381586//428_428_2153A886306C37CA04E099391DA04F30CEBF065510C5F361mp.png"
+                },
+                {
+                    "id": "a1s2",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443381586/group//428_428_1C5C57BE8392D4DBA6E7A75C9AB812DFC476F4F081D6E3D7.png"
+                },
+                {
+                    "id": "a1s3",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443381586/group//428_428_6A34BAC752D6039BCFA1FE7DFF8B7457C50CEA641ED5E9EA.png"
+                },
+                {
+                    "id": "a1s4",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443381586/group//428_428_85A43F8AF36ADCA42BA23D4DA5776170434DD4D12965A703.png"
+                },
+                {
+                    "id": "a1s5",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443381586/group//428_428_D73B3B9567B2BCB502A775C728552D6973C56D2D32CFF6F2.png"
+                },
+                {
+                    "id": "a1s6",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443381586/group//428_428_55E1BDD79E7AEC0F55EC9EBB9845EC93CCB9BB431CACFB88.png"
+                },
+                {
+                    "id": "a1s7",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443381586/group//428_428_3915E481F6E3F89420A6EACBDB58E9C3731379D262DD2E80.png"
+                }
+            ],
+            "price": "6488",
+            "price2": "",
+            "namedetail": "HUAWEI P40 Pro 5G 全网通 8GB+256GB（冰霜银）",
+            "peizhi": "",
+            "color": [
+                {
+                    "id": "a1c1",
+                    "p1": "冰霜银"
+                },
+                {
+                    "id": "a1c2",
+                    "p1": "亮黑色"
+                },
+                {
+                    "id": "a1c3",
+                    "p1": "零度白"
+                },
+                {
+                    "id": "a1c4",
+                    "p1": "深海蓝"
+                },
+                {
+                    "id": "a1c5",
+                    "p1": "晨曦金"
+                }
+            ],
+            "banben": [
+                {
+                    "id": "a1b1",
+                    "b1": "5G全网通 8GB+256GB"
+                },
+                {
+                    "id": "a1b2",
+                    "b1": "5G全网通 8GB+128GB"
+                },
+                {
+                    "id": "a1b3",
+                    "b1": "5G全网通 8GB+512GB"
+                }
+            ],
+            "xiangou": "20",
+            "pingjia": [
+                {
+                    "id": "a1pj",
+                    "pinjianum": "47822",
+                    "header-img": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
+                    "pingjianame": "189****0310",
+                    "pingjia-txt": "给媳妇儿买的，感觉不错！物流很快，上午买下午到！",
+                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0914/1CB5C0DE361C56FC6EC0411AD0ADB624460044F3D53F08DDA732C3089A106987/100/dda4225f86cc14c6a6ca6cd4.jpg"
+                }
+            ],
+            "adsimg": [
+                {
+                    "id": "a1a1",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/04/30/7C1BE316E90981F990B80EFC6D59F538FB2E1EAD9FAE2321.jpg"
+                },
+                {
+                    "id": "a1a2",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/07/24/2490FCF78348A650A5239690CD6E24D70B02EE7978D50138.jpg"
+                },
+                {
+                    "id": "a1a3",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/07/24/F00D0FA9EB40D2AB79AD8F8EAE2445FA1B2A968C49FEEC96.jpg"
+                },
+                {
+                    "id": "a1a4",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/04/30/AC1D9209B8C61D5B2A0BBBC2121CC6BC53A7BE21F5CC0D73.jpg"
+                },
+                {
+                    "id": "a1a5",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/04/30/338775B7E6FC0EAE73507E93C7E830ED8A8DAAEF025D4311.jpg"
+                },
+                {
+                    "id": "a1a6",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/04/30/3027AC5129217447F5760DB1EC1D24A770F225F195EDF00A.jpg"
+                },
+                {
+                    "id": "a1a7",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/04/30/743E74F028FFD4659A93E753344BD774555C185D1AF9809F.jpg"
+                },
+                {
+                    "id": "a1a8",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/04/30/EE0A36DFF1EAA6394797778EEC3B4D908AE56F5C3F5D1A4F.jpg"
+                },
+                {
+                    "id": "a1a9",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/04/30/EAF3B5C79C65C31EBC0B4C2C2BEDFBE4BDB76A0D412D3090.jpg"
+                },
+                {
+                    "id": "a1a10",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/04/30/C3AB43474D8B19437E617CB3AA57CEC609E3EDE067075FF0.jpg"
+                }
+            ]
+        },
+        {
+            "id": "b2",
+            "swiperlist": [
+                {
+                    "id": "b2s1",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443415670//428_428_02CAB92CA3E7CA5A99995191A776C00D87C32CC39A4B1605mp.png"
+                },
+                {
+                    "id": "b2s2",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443415670/group//428_428_8B53725E1690E51C41D775651361B637888A858B139CE465.png"
+                },
+                {
+                    "id": "b2s3",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443415670/group//428_428_751668212A6E344C7DB245305123063AF1C5BFEF9890AB0C.png"
+                },
+                {
+                    "id": "b2s4",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443415670/group//428_428_D396C2562542350877A73EEB881A5C3B47C0E680E334601A.png"
+                },
+                {
+                    "id": "b2s5",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443415670/group//428_428_82303FE074B00848E59EFBBC71A32461854CA11745CA7FE8.png"
+                },
+                {
+                    "id": "b2s6",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443415670/group//428_428_C01DB7EE98DE5A544F40965B9AC00601610FAFD8561CEE6A.png"
+                },
+                {
+                    "id": "b2s7",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443415670/group//428_428_1E908A9E8A0F98D946B10A9F200E593AB8CF7C03F2746BDB.png"
+                }
+            ],
+            "price": "5299",
+            "price2": "",
+            "namedetail": "HUAWEI Mate 30E Pro 5G 全网通 8GB+128GB（亮黑色）",
+            "peizhi": "",
+            "color": [
+                {
+                    "id": "b2c1",
+                    "c1": "亮黑色"
+                },
+                {
+                    "id": "b2c2",
+                    "c1": "星河银"
+                },
+                {
+                    "id": "b2c3",
+                    "c1": "翡冷翠"
+                },
+                {
+                    "id": "b2c4",
+                    "c1": "罗兰紫"
+                },
+                {
+                    "id": "b2c5",
+                    "c1": "丹霞橙"
+                },
+                {
+                    "id": "b2c6",
+                    "c1": "青山黛"
+                }
+            ],
+            "banben": [
+                {
+                    "id": "b2b1",
+                    "b1": "5G全网通 8GB+128GB"
+                },
+                {
+                    "id": "b2b2",
+                    "b1": "5G全网通 8GB+256GB"
+                }
+            ],
+            "xiangou": "3",
+            "pingjia": [
+                {
+                    "id": "b2pj",
+                    "pinjianum": "4425",
+                    "header-img": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
+                    "pingjianame": "落****",
+                    "pingjia-txt": "昨天晚上下单，今天早上收到，给力，迫不及待打开，手感不错！五年花粉",
+                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0434/BC416F654CD5C5969897087642CE12BEEFD0A6D6294C801B8BE90FEAC3922C2E/100/2ea9d1b632f2413fc04f2565.jpg"
+                }
+            ],
+            "adsimg": [
+                {
+                    "id": "b2a1",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/12/26/6BC38EA15AB42DD3329119D0BB1FA5CC3129C96E056D5FCB.jpg"
+                },
+                {
+                    "id": "b2a2",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/104E41E00540CC056921EC3862358F145A9B8D6AFE22B101.jpg"
+                },
+                {
+                    "id": "b2a3",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/1D5D843001302C8D6B5F27C9F7082D09E50177F0B887418D.jpg"
+                },
+                {
+                    "id": "b2a4",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/6BEA727D5887C76444A28FACCC4BF1932EEA95B721B53817.jpg"
+                },
+                {
+                    "id": "b2a5",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/16F8CADC44B81B077A7B6FA65E5DA820F64F0E550E38BF65.jpg"
+                },
+                {
+                    "id": "b2a6",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/621AE48BBDA36086C9AA5E117FD2F17B930D1DED841EB823.jpg"
+                },
+                {
+                    "id": "b2a7",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/E2F56FEBF1185CEE37A47F02544910A16193769D2C33FCAC.jpg"
+                },
+                {
+                    "id": "b2a8",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/81C201CEFF77874D9DCF0A04B1E7E320AFC314212177493A.jpg"
+                },
+                {
+                    "id": "b2a9",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/408565676D56B7EABB484012E8FBCF1F3A9CE05D6BBA39D9.jpg"
+                },
+                {
+                    "id": "b2a10",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/30/227405BC71E460F4C19779F2E564F778A148D76033EDF26E.jpg"
+                }
+            ]
+        },
+        {
+            "id": "c3",
+            "swiperlist": [
+                {
+                    "id": "c3s1",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487202256//428_428_CAEB4B495D814F32C132C8E65B45EBA5FEACC985B5D26A37mp.png"
+                },
+                {
+                    "id": "c3s2",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487202256/group//428_428_D23E075E422EAE987F46368B404A162E2B8623E95AB29012.png"
+                },
+                {
+                    "id": "c3s3",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487202256/group//428_428_3E70BDF6851E5B204F32C59B33CC968784F98D522DDBDEC4.png"
+                },
+                {
+                    "id": "c3s4",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487202256/group//428_428_0E7E0D479839893C0A7002D0DB38B274EBF20667C5BC457D.png"
+                },
+                {
+                    "id": "c3s5",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487202256/group//428_428_BA56B8F4ECCFFBCDABAF0069C60570EBCFD7732D8B052AB3.png"
+                },
+                {
+                    "id": "c3s6",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487202256/group//428_428_999CBE51889CA0A1E7DAD4CD2067E1E9C752CA9DD492E0F8.png"
+                },
+                {
+                    "id": "c3s7",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487202256/group//428_428_34E9B4D6D37A8C27BAD8DA7F2238DCA3A8634EB33AC2448C.png"
+                },
+                {
+                    "id": "c3s8",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487202256/group//428_428_027FE31D27793008D70CE9657D9CF22C2E064F4B8F80D6F6.png"
+                }
+            ],
+            "price": "1049",
+            "price2": "￥1099",
+            "namedetail": "【新品】HUAWEI FreeBuds Pro 真无线耳机 有线充版（陶瓷白）",
+            "peizhi": "",
+            "color": [
+                {
+                    "id": "c3c1",
+                    "c1": "陶瓷白"
+                },
+                {
+                    "id": "c3c2",
+                    "c1": "碳晶黑"
+                },
+                {
+                    "id": "c3c3",
+                    "c1": "冰霜银"
+                }
+            ],
+            "banben": [
+                {
+                    "id": "c3b1",
+                    "b1": "有线充版"
+                },
+                {
+                    "id": "c3b2",
+                    "b1": "无线充版"
+                }
+            ],
+            "xiangou": "3",
+            "pingjia": [
+                {
+                    "id": "c3pj",
+                    "pinjianum": "30364",
+                    "header-img": "https://res.vmallres.com/rms/comment/image/U0401/FB9DC243B7CFE44E5B6E34CAF66051F97398ECD4B601E93F3924574251A447B2/ccc43a51c62785493685e0ab.jpg",
+                    "pingjianame": "崔**",
+                    "pingjia-txt": "这速度没的说，昨天上午下单，今天上午就收到啦，超级有质感，音质没的说",
+                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0401/FB9DC243B7CFE44E5B6E34CAF66051F97398ECD4B601E93F3924574251A447B2/100/b361f5fa9c002f215f33d55c.jpg"
+                }
+            ],
+            "adsimg": [
+                {
+                    "id": "c3a1",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/11/25/1E1F647827F3FA5E1BC3E321A046A14A4C8D3DB5ABFB29D7.jpg"
+                },
+                {
+                    "id": "c3a2",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/22/B0612987D0270B93303CA6398AD67A16E86A87333E799B0B.jpg"
+                },
+                {
+                    "id": "c3a3",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/22/32BAC27438EDD4287783360C5FF93CFEE7775344CA7C265F.jpg"
+                },
+                {
+                    "id": "c3a4",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/11/25/96AFF1ABF2D44E19E26C1F325365000231FFF87D68AD3858.jpg"
+                },
+                {
+                    "id": "c3a5",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/11/25/C59577E359453F4BE9BCDBFDA9F689EBA9DF18A9920DC57D.jpg"
+                },
+                {
+                    "id": "c3a6",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/11/25/D56454985E75CD19495C2E32F92C8541E8B57F333B38F1DC.jpg"
+                },
+                {
+                    "id": "c3a7",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/11/25/F575AB2719A4EEAB67EE8D3DFB2B1BC9DB754741D4F2FF63.jpg"
+                },
+                {
+                    "id": "c3a8",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/11/25/573959277EA38192276C8BB8A57B7F25482E65F064A41E4D.jpg"
+                },
+                {
+                    "id": "c3a9",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/11/25/7E2677B826B7C60BAD2043482E1A02BC664679EFE24A145C.jpg"
+                },
+                {
+                    "id": "c3a10",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/11/25/9EDA7B05E8B669B3F1C2F5B8D55EF0A63C9565EEFA7F1219.jpg"
+                }
+            ]
+        },
+        {
+            "id": "d4",
+            "swiperlist": [
+                {
+                    "id": "d4s1",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487204960//428_428_1E6951763EADFB64B14E5B9C8BA1825D73ABFB8751BC7FB8mp.png"
+                },
+                {
+                    "id": "d4s2",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487204960/group//428_428_C9D88763BAA7F9FA10674F1D101DAC1F5A986F9BDABFC9ED.png"
+                },
+                {
+                    "id": "d4s3",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487204960/group//428_428_872572B7EAFDC4BC22E17804328EBBA5303FB744C232A83F.png"
+                },
+                {
+                    "id": "d4s4",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487204960/group//428_428_0116770F95D050EB0A7B00B318273E52A6E2104355A3C82F.png"
+                },
+                {
+                    "id": "d4s5",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487204960/group//428_428_D5C410FB032818ECD78984E3663237A8002635379DD84FE1.png"
+                },
+                {
+                    "id": "d4s6",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487204960/group//428_428_EE44986E8CAB5D32AAC1EC521707EFAAAE26014667F00822.png"
+                },
+                {
+                    "id": "d4s7",
+                    "imgs": "https://res.vmallres.com/pimages//product/6941487204960/group//428_428_0C8C5BC93A5C7F7B989467F4270445CAFEA8868FD9F0126E.png"
+                }
+            ],
+            "price": "3199",
+            "price2": "",
+            "namedetail": "【5G新品】HUAWEI MatePad 5G 10.4英寸 6GB+128GB 5G全网通版 Wi-Fi 6+ 2K全面屏 7nm麒麟820芯片 哈曼卡顿调音 德国莱茵低蓝光认证 教育学习平板电脑（夜阑灰）",
+            "peizhi": "",
+            "color": [
+                {
+                    "id": "d4c1",
+                    "c1": "黑阑灰"
+                },
+                {
+                    "id": "d4c2",
+                    "c1": "贝母白"
+                }
+            ],
+            "banben": [
+                {
+                    "id": "d4b1",
+                    "b1": "5G全网通 6GB+128GB"
+                },
+                {
+                    "id": "d4b2",
+                    "b1": "WiFi 6GB+128GB"
+                },
+                {
+                    "id": "d4b3",
+                    "b1": "WiFi 4GB+64GB"
+                },
+                {
+                    "id": "d4b4",
+                    "b1": "WiFi 4GB+128GB"
+                }
+            ],
+            "xiangou": "20",
+            "pingjia": [
+                {
+                    "id": "d4pj",
+                    "pinjianum": "9743",
+                    "header-img": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
+                    "pingjianame": "x******",
+                    "pingjia-txt": "屏幕看起来还不错，音响设备两边都有非常好，声音听起来比较立体环绕，触控也比较灵敏，用来上网课非常好，赞",
+                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0441/86C2F835687105672D494DEF2E78E89A48099B1A2BCE05CA5E952B4ADDB75E0B/100/06feb5ce761c93e68f22f668.jpg"
+                }
+            ],
+            "adsimg": [
+                {
+                    "id": "d4a1",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/D51354547C01A456C111BECDBC48DA7590E2764E396664BF.jpg"
+                },
+                {
+                    "id": "d4a2",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/140258F6E4F423BF695FEED0353669EBEDFD9AFD5B40952D.jpg"
+                },
+                {
+                    "id": "d4a3",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/516E4BF782A1044D1E9481E78D9A3E4F790C0786D419E175.jpg"
+                },
+                {
+                    "id": "d4a4",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/CA5469E82078CF91E6F554EBBACD2FC1F30AA95D6A72B701.jpg"
+                },
+                {
+                    "id": "d4a5",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/D86B8DC3096CE93027F9A232906DF766BE7EB7168CD57A13.jpg"
+                },
+                {
+                    "id": "d4a6",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/D876C440391E297B4A36241B8AFCB8C2D3E5ABEF0BCA6217.jpg"
+                },
+                {
+                    "id": "d4a7",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/CC8C7C730FEF1C204F839A2B9BB43E0E45BE12484553434A.jpg"
+                },
+                {
+                    "id": "d4a8",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/975DF8CAA3425D57DE02E7FC863FE339E6F452C81C21489D.jpg"
+                },
+                {
+                    "id": "d4a9",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/35A72889D3E51DF2522012A33752FA286666E795612390E7.jpg"
+                },
+                {
+                    "id": "d4a10",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/15/C4DA005641527B661C4F34128D33721DECD48F20A6AFFD3A.jpg"
+                }
+            ]
+        },
+        {
+            "id": "e5",
+            "swiperlist": [
+                {
+                    "id": "e5s1",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443320202//428_428_A8033BCC8CCFFF9199371E71953A1B8B9730D5ACACA293D0mp.png"
+                },
+                {
+                    "id": "e5s2",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443320202/group//428_428_3D0BD09EF2B56020E6910F2DD2E09B545AB78825280A5F66.png"
+                },
+                {
+                    "id": "e5s3",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443320202/group//428_428_631670F466BA45F8613F21CDAE9BDAB97464CA5DA882C5F1.png"
+                },
+                {
+                    "id": "e5s4",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443320202/group//428_428_0DAA5E211E80A6AD042D7E3E72B2C39527E4E2A820FD26CB.png"
+                },
+                {
+                    "id": "e5s5",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443320202/group//428_428_86DFC45F12FAAFA4862EFD18700A99ECCB63EACC43E11E2C.png"
+                }
+            ],
+            "price": "1388",
+            "price2": "￥1488",
+            "namedetail": "【最长2周续航】HUAWEI WATCH GT 2 运动款 曜石黑（46mm）华为智能手表 麒麟A1芯片 强劲续航 专业运动 心脏健康 蓝牙通话 音乐播放 户外运动手表",
+            "peizhi": [
+                {
+                    "id": "e5p1",
+                    "p1": "46mm"
+                },
+                {
+                    "id": "e5p2",
+                    "p1": "42mm"
+                }
+            ],
+            "color": [
+                {
+                    "id": "e5c1",
+                    "c1": "曜石黑"
+                },
+                {
+                    "id": "e5c2",
+                    "c1": "砂砾棕"
+                },
+                {
+                    "id": "e5c3",
+                    "c1": "赤城霞"
+                },
+                {
+                    "id": "e5c4",
+                    "c1": "钛银灰"
+                }
+            ],
+            "banben": [
+                {
+                    "id": "e5b1",
+                    "b1": "运动版"
+                }
+            ],
+            "xiangou": "10",
+            "pingjia": [
+                {
+                    "id": "e5pj",
+                    "pinjianum": "82798",
+                    "header-img": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
+                    "pingjianame": "不**",
+                    "pingjia-txt": "手表收到，物流妥妥的次日达，上手很快，配合华为手机简直了，支持国产品牌，希望越做越好。",
+                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0967/D6BC3A3136FE30737138A954F3D578D5CFA26B089AFF9146F3B18C126F672F15/100/7c841c436e7bba2fd779c14b.jpg"
+                }
+            ],
+            "adsimg": [
+                {
+                    "id": "e5a1",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/16/6FCE8815B0F71CCF3E6584751E455E46170673F5191E2273.jpg"
+                },
+                {
+                    "id": "e5a2",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/1BAD456D2F781206EC97A08205C8E9050965EBD0F41D9166.jpg"
+                },
+                {
+                    "id": "e5a3",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/3BE072EC2963D7441C9BF02E562295768217B4696FC6581D.jpg"
+                },
+                {
+                    "id": "e5a4",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/CA9F05C935AD469473A0AA583B2AFA3BEAB503990F75822C.jpg"
+                },
+                {
+                    "id": "e5a5",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/E2A67F67DE419726707FEB09A016C7C3FA8EC7E3165BB0E0.jpg"
+                },
+                {
+                    "id": "e5a6",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/FA364FDE118A78281A31DF42031A131747C90B0296E2AC40.jpg"
+                },
+                {
+                    "id": "e5a7",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/BA574B0E1FFA478BF8026F5C5977203425AFAF3C24AAE40D.jpg"
+                },
+                {
+                    "id": "e5a8",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/37282A220C4DAD8F77697B3D8DEEBA0A8EEF3DA52C5EFBB1.jpg"
+                },
+                {
+                    "id": "e5a9",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/AF6589E8D20C9901BC47B72E6022121D8DC8DF25F97D1C9D.jpg"
+                },
+                {
+                    "id": "e5a10",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/02/10/5FFC1376A062A12C2109228AEC0A995A793A256BEF4278AC.jpg"
+                }
+            ]
+        },
+        {
+            "id": "f6",
+            "swiperlist": [
+                {
+                    "id": "f6s1",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443404926//428_428_EC057BA9FC304F37A60287C1D9E761FACF0EF559795D340Fmp.png"
+                },
+                {
+                    "id": "f6s2",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443404926/group//428_428_089AACEAD8002E190C5C36E1F0FE95A77099AFC16FF4D7B6.png"
+                },
+                {
+                    "id": "f6s3",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443404926/group//428_428_0CCE913375E5FE158CABF2DF2A90448FAF55B16E74A2D25B.png"
+                },
+                {
+                    "id": "f6s4",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443404926/group//428_428_B303381C95DDA5CA93FE0871898276439FB165BC11628AB3.png"
+                },
+                {
+                    "id": "f6s5",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443404926/group//428_428_3AE340CBC4E170CB0EDA7F6758C2F60DEE4DA772EB1091F2.png"
+                },
+                {
+                    "id": "f6s6",
+                    "imgs": "https://res.vmallres.com/pimages//product/6901443404926/group//428_428_9C4BDDDAE22A3A3C2D0DB7E7E122FB2D9609850C19AF54E8.png"
+                }
+            ],
+            "price": "8988",
+            "price2": "￥8999",
+            "namedetail": "HUAWEI MateBook X 2020款 集显 i5 16G 512G（冰霜银）13英寸3K触控全面屏 轻至1kg超轻薄华为笔记本电脑",
+            "peizhi": [
+                {
+                    "id": "f6p1",
+                    "p1": "I5/16GB/512GB 触屏"
+                },
+                {
+                    "id": "f6p2",
+                    "p1": "I5/8GB/512GB 触屏"
+                },
+                {
+                    "id": "f6p3",
+                    "p1": "I7/16GB/512GB 触屏"
+                }
+            ],
+            "color": [
+                {
+                    "id": "f6c1",
+                    "c1": "冰霜银"
+                },
+                {
+                    "id": "f6c2",
+                    "c1": "星际蓝"
+                },
+                {
+                    "id": "f6c3",
+                    "c1": "青山黛"
+                }
+            ],
+            "banben": [
+                {
+                    "id": "f6b1",
+                    "b1": "集成显卡"
+                }
+            ],
+            "xiangou": "20",
+            "pingjia": [
+                {
+                    "id": "f6pj",
+                    "pinjianum": "1685",
+                    "header-img": "https://res.vmallres.com/rms/comment/image/U0485/7A28AE2D6862522EBAF284EC1A1BCC0C16EA05AB8DCADC2B91D7D92105D7D8F8/bf78ef05d1fe8c1bb1129fcd.jpg",
+                    "pingjianame": "D*******",
+                    "pingjia-txt": "买的第二台了，外观漂亮，速度快，与华为手机互联相当方便。支持华为创新。",
+                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0485/7A28AE2D6862522EBAF284EC1A1BCC0C16EA05AB8DCADC2B91D7D92105D7D8F8/100/e242160b43f9a16981911a33.jpg"
+                }
+            ],
+            "adsimg": [
+                {
+                    "id": "f6a1",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/08/14/C7986A5957C024372CABC4C989F9E8FFE144554AF50EF9EF.jpg"
+                },
+                {
+                    "id": "f6a2",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/09/07/6EFF04F16F2CAE2D45BFA29418DD27841AB28394C5711D97.jpg"
+                },
+                {
+                    "id": "f6a3",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/19/168A1D2598ADCC762586C0ACF0A8C5659C81C14B1DEFF29C.jpg"
+                },
+                {
+                    "id": "f6a4",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/19/069B86A8845629BC4F0AD4E672A5F30E000F3E7E6E3BA5FF.jpg"
+                },
+                {
+                    "id": "f6a5",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/19/9C75A7B83CA1FFF9844E188CBBDD76EC506A8302A01550F9.jpg"
+                },
+                {
+                    "id": "f6a6",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/19/72F241190ECE727E08FF9BEB57D9F35150757E62A425041D.jpg"
+                },
+                {
+                    "id": "f6a7",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/19/DC2419DF93F97170EAB375DFCE2541BE8868E631966DC2D2.jpg"
+                },
+                {
+                    "id": "f6a8",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/19/7244F6E4EFDFFD624029881CDD4A1BA1C0FEBB81C0E6A7D5.jpg"
+                },
+                {
+                    "id": "f6a9",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/19/6D0751B3EAABAE7B6FBEB7C3BDEA39476BBB0DAEF9CE3F36.jpg"
+                },
+                {
+                    "id": "f6a10",
+                    "imga": "https://res.vmallres.com/pimages/detailImg/2020/10/19/A7EA108A8EB438E9484B69077D71673D11A17F7736B48409.jpg"
+                }
+            ]
+        }
+    ]
+}

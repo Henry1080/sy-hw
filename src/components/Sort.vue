@@ -50,7 +50,7 @@
                                 </li>
                             </ul>
                         </div>
-                         <div class="category-list" v-if="item.contentlist2">
+                        <div class="category-list" v-if="item.contentlist2">
                             <div class="title">
                                 <h3>
                                     <span>{{ item.title2 }}</span>
@@ -67,7 +67,7 @@
                                 </li>
                             </ul>
                         </div>
-                         <div class="category-list" v-if="item.contentlist3">
+                        <div class="category-list" v-if="item.contentlist3">
                             <div class="title">
                                 <h3>
                                     <span>{{ item.title3 }}</span>
@@ -84,7 +84,7 @@
                                 </li>
                             </ul>
                         </div>
-                         <div class="category-list" v-if="item.contentlist4">
+                        <div class="category-list" v-if="item.contentlist4">
                             <div class="title">
                                 <h3>
                                     <span>{{ item.title4 }}</span>
@@ -101,7 +101,7 @@
                                 </li>
                             </ul>
                         </div>
-                         <div class="category-list" v-if="item.contentlist5">
+                        <div class="category-list" v-if="item.contentlist5">
                             <div class="title">
                                 <h3>
                                     <span>{{ item.title5 }}</span>
@@ -119,6 +119,9 @@
                             </ul>
                         </div>
                     </li>
+                    <el-backtop target=".content-right-list" class="backtop" :bottom="70" :right="11.4">
+                        <span></span>
+                    </el-backtop>
                 </ul>
             </div>
         </div>
@@ -378,11 +381,26 @@ export default {
     color: currentColor;
     text-align: center;
     word-break: break-all;
-    font: 0.6rem/normal normal;
+    font: 0.6rem / normal normal;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+}
+.backtop {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    bottom: calc(57px + 0.4rem) !important;
+    right: 0.4rem !important;
+}
+.backtop > span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/button-top.png) no-repeat center;
+    display: inline-block;
+    border-radius: 50%;
+    background-size: 120% 120%;
+    cursor: pointer;
 }
 </style>

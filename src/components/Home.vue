@@ -59,7 +59,7 @@ import My from './My.vue';
 export default {
     data() {
         return {
-            componentName: 'mains',
+            
         };
     },
     components: {
@@ -72,12 +72,15 @@ export default {
         cartNumber() {
             return this.$store.state.cartNumber;
         },
+        componentName() {
+            return this.$store.state.componentName;
+        },
     },
     methods: {
         btnClick(item) {
-            this.componentName = item;
+            this.$store.commit('btnClick', item);
         },
-    },
+    }
 };
 </script>
 
@@ -124,7 +127,7 @@ export default {
     margin-bottom: 0.2rem;
 }
 /* tab切换文字 */
-.botton-title{
+.botton-title {
     height: 0.5rem;
     font-family: HYQiHei-FES;
     font-size: 0.5rem;
