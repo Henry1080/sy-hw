@@ -10,19 +10,31 @@
                             <span></span>
                         </div>
                         <div class="header-pullapp-img">
-                            <img src="https://res.vmallres.com/pimages//pages/cdnImages/qUMT0pIBGQN3boCKtSqN.png" alt="" />
+                            <img
+                                src="https://res.vmallres.com/pimages//pages/cdnImages/qUMT0pIBGQN3boCKtSqN.png"
+                                alt=""
+                            />
                         </div>
                         <div class="header-pullapp-txtbox">
                             <div class="header-pullapp-txtbox-title">来华为商城APP</div>
                             <div class="header-pullapp-txtbox-txt">立即领取新人专享见面礼</div>
                         </div>
-                        <a href="https://m.vmall.com/app/open?type=1&cid=93436" class="header-pullapp-btnbox">打开App</a>
+                        <a href="https://m.vmall.com/app/open?type=1&cid=93436" class="header-pullapp-btnbox"
+                            >打开App</a
+                        >
                     </div>
                 </div>
                 <div class="header-title-wrap" v-else key="aaa">
                     <div class="back" @click="goback"></div>
                     <ul class="header-title-text">
-                        <li :class="{ active: num == index }" v-for="(item, index) in titlelist" :key="item" @click="btnTitleText(index)">{{ item }}</li>
+                        <li
+                            :class="{ active: num == index }"
+                            v-for="(item, index) in titlelist"
+                            :key="item"
+                            @click="btnTitleText(index)"
+                        >
+                            {{ item }}
+                        </li>
                     </ul>
                     <div class="morechoice" @click="tabmorechoice">
                         <ul class="morechoice-box" v-show="ismorechoice">
@@ -134,21 +146,45 @@
                 <div class="peizhi" v-if="goodsdetaillist.peizhi">
                     <div class="title">配置</div>
                     <ul class="list">
-                        <li class="item" :class="{ active: num2 == index }" v-for="(item, index) in goodsdetaillist.peizhi" :key="item.id" @click="btnTitleText2(index)">{{ item.p1 }}</li>
+                        <li
+                            class="item"
+                            :class="{ active: num2 == index }"
+                            v-for="(item, index) in goodsdetaillist.peizhi"
+                            :key="item.id"
+                            @click="btnTitleText2(index)"
+                        >
+                            {{ item.p1 }}
+                        </li>
                     </ul>
                 </div>
                 <!-- 颜色 -->
                 <div class="color">
                     <div class="title">颜色</div>
                     <ul class="list">
-                        <li class="item" :class="{ active: num3 == index }" v-for="(item, index) in goodsdetaillist.color" :key="item.id" @click="btnTitleText3(index)">{{ item.c1 }}</li>
+                        <li
+                            class="item"
+                            :class="{ active: num3 == index }"
+                            v-for="(item, index) in goodsdetaillist.color"
+                            :key="item.id"
+                            @click="btnTitleText3(index)"
+                        >
+                            {{ item.c1 }}
+                        </li>
                     </ul>
                 </div>
                 <!-- 版本 -->
                 <div class="banben">
                     <div class="title">版本</div>
                     <ul class="list">
-                        <li class="item" :class="{ active: num4 == index }" v-for="(item, index) in goodsdetaillist.banben" :key="item.id" @click="btnTitleText4(index)">{{ item.b1 }}</li>
+                        <li
+                            class="item"
+                            :class="{ active: num4 == index }"
+                            v-for="(item, index) in goodsdetaillist.banben"
+                            :key="item.id"
+                            @click="btnTitleText4(index)"
+                        >
+                            {{ item.b1 }}
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -189,12 +225,16 @@
             <div class="demo-image__lazy">
                 <el-image v-for="item in goodsdetaillist.adsimg" :key="item.id" :src="item.imga" lazy></el-image>
             </div>
+            <el-backtop target=".goodsdetail-wrap" class="backtop" :bottom="70" :right="11.4">
+                        <span></span>
+                    </el-backtop>
         </div>
     </div>
 </template>
 
 <script>
 import axios from 'axios';
+
 export default {
     data() {
         return {
@@ -244,7 +284,7 @@ export default {
                 .then(function(response) {
                     // console.log(response);
                     that.goodsdetaillist = response.data.goodsdetaillist[id];
-                    console.log(that.goodsdetaillist);
+                    // console.log(that.goodsdetaillist);
                 })
                 .catch(function(error) {
                     console.log(error);
@@ -447,7 +487,8 @@ export default {
 .header-title-wrap > .morechoice {
     width: 1.2rem;
     height: 1.2rem;
-    background: transparent url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_header_nav.png) scroll no-repeat;
+    background: transparent url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_header_nav.png)
+        scroll no-repeat;
     background-size: cover;
 }
 .morechoice-box {
@@ -477,11 +518,13 @@ export default {
     background-size: 1.2rem 1.2rem;
 }
 .morechoice-content > .i2 {
-    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_search_black.png) no-repeat center;
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_search_black.png) no-repeat
+        center;
     background-size: 1.2rem 1.2rem;
 }
 .morechoice-content > .i3 {
-    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_menu_category_black.png) no-repeat center;
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_menu_category_black.png)
+        no-repeat center;
     background-size: 1.2rem 1.2rem;
 }
 .morechoice-content > .i4 {
@@ -489,7 +532,8 @@ export default {
     background-size: 1.2rem 1.2rem;
 }
 .morechoice-content > .i5 {
-    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_person_black.png) no-repeat center;
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_person_black.png) no-repeat
+        center;
     background-size: 1.2rem 1.2rem;
 }
 .morechoice-content > span {
@@ -544,7 +588,8 @@ export default {
 .swiper-title-wrap > .morechoice {
     width: 1.2rem;
     height: 1.2rem;
-    background: transparent url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_more_grey.png) scroll no-repeat;
+    background: transparent url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon_more_grey.png)
+        scroll no-repeat;
     background-size: cover;
 }
 .morechoice-box2 {
@@ -764,7 +809,8 @@ export default {
     margin-left: 0.2rem;
     width: 0.6rem;
     height: 1.2rem;
-    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon-more-arrow-1.png) no-repeat center;
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/icon-more-arrow-1.png) no-repeat
+        center;
     background-size: contain;
 }
 .evaluate-content {
@@ -871,5 +917,25 @@ export default {
     background-repeat: no-repeat;
     background-size: contain;
     margin: auto;
+}
+.demo-image__lazy .el-image {
+    display: block;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+.backtop {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    bottom: calc(57px + 0.4rem) !important;
+    right: 0.4rem !important;
+}
+.backtop > span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(https://res.vmallres.com/nwap/20201115/images/echannelWap/icon/button-top.png) no-repeat center;
+    display: inline-block;
+    border-radius: 50%;
+    background-size: 120% 120%;
+    cursor: pointer;
 }
 </style>
