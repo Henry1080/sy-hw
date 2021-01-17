@@ -104,7 +104,7 @@
             <div class="mask" v-show="isotherpage"></div>
         </div>
         <!-- 主要内容 -->
-        <div class="wrap" ref="wrap" @scroll="fun1">
+        <div class="wrap" ref="wrap" @scroll="getDistance">
             <!-- 轮播图 -->
             <div class="swiper-box">
                 <swiper ref="mySwiper" :options="swiperOptions">
@@ -393,9 +393,7 @@ import axios from 'axios';
 export default {
     data() {
         return {
-            // 顶部app横幅是否显示
-            ispullapp: true,
-            //滚动条滚动显示或隐藏
+            //滚动条滚动广告显示或隐藏
             ispullapp2: true,
             // 其他页面隐藏张开
             isotherpage: false,
@@ -434,17 +432,22 @@ export default {
         };
     },
     computed: {
+        // 登录状态
         isdenglu() {
             return this.$store.state.isdenglu;
         },
         swiper() {
             return this.$refs.mySwiper.$swiper;
         },
+        // 广告是否存在
+        ispullapp(){
+             return this.$store.state.ispullapp;
+        }
     },
     methods: {
         // 关闭顶部app横幅
         closeapp() {
-            this.ispullapp = false;
+            this.$store.commit("closeapp")
         },
         // 隐藏页面切换
         isotherpagebtn() {
@@ -469,7 +472,7 @@ export default {
             }, 100);
             
         },
-        fun1() {
+        getDistance() {
             this.distance = this.$refs.wrap.scrollTop;
             // console.log(this.distance);
         },

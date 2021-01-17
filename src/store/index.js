@@ -11,10 +11,16 @@ export default new Vuex.Store({
         isdenglu: false,
         // 动态组件名
         componentName: 'mains',
+        // 顶部app横幅是否显示
+        ispullapp: true,
     },
     mutations: {
         btnClick(state, item) {
             state.componentName = item;
+        },
+        // 关闭顶部app横幅
+        closeapp(state) {
+            state.ispullapp = false;
         },
     },
     actions: {},

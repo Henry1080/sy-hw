@@ -41,23 +41,23 @@
             "color": [
                 {
                     "id": "a1c1",
-                    "p1": "冰霜银"
+                    "c1": "冰霜银"
                 },
                 {
                     "id": "a1c2",
-                    "p1": "亮黑色"
+                    "c1": "亮黑色"
                 },
                 {
                     "id": "a1c3",
-                    "p1": "零度白"
+                    "c1": "零度白"
                 },
                 {
                     "id": "a1c4",
-                    "p1": "深海蓝"
+                    "c1": "深海蓝"
                 },
                 {
                     "id": "a1c5",
-                    "p1": "晨曦金"
+                    "c1": "晨曦金"
                 }
             ],
             "banben": [
@@ -75,16 +75,11 @@
                 }
             ],
             "xiangou": "20",
-            "pingjia": [
-                {
-                    "id": "a1pj",
-                    "pinjianum": "47822",
-                    "header-img": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
-                    "pingjianame": "189****0310",
-                    "pingjia-txt": "给媳妇儿买的，感觉不错！物流很快，上午买下午到！",
-                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0914/1CB5C0DE361C56FC6EC0411AD0ADB624460044F3D53F08DDA732C3089A106987/100/dda4225f86cc14c6a6ca6cd4.jpg"
-                }
-            ],
+            "pingjianum": "47822",
+            "headerimg": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
+            "pingjianame": "189****0310",
+            "pingjiatxt": "给媳妇儿买的，感觉不错！物流很快，上午买下午到！",
+            "pingjiaimg": "https://res.vmallres.com/rms/comment/image/U0914/1CB5C0DE361C56FC6EC0411AD0ADB624460044F3D53F08DDA732C3089A106987/100/dda4225f86cc14c6a6ca6cd4.jpg",
             "adsimg": [
                 {
                     "id": "a1a1",
@@ -201,16 +196,11 @@
                 }
             ],
             "xiangou": "3",
-            "pingjia": [
-                {
-                    "id": "b2pj",
-                    "pinjianum": "4425",
-                    "header-img": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
-                    "pingjianame": "落****",
-                    "pingjia-txt": "昨天晚上下单，今天早上收到，给力，迫不及待打开，手感不错！五年花粉",
-                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0434/BC416F654CD5C5969897087642CE12BEEFD0A6D6294C801B8BE90FEAC3922C2E/100/2ea9d1b632f2413fc04f2565.jpg"
-                }
-            ],
+            "pingjianum": "4425",
+            "headerimg": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
+            "pingjianame": "落****",
+            "pingjiatxt": "昨天晚上下单，今天早上收到，给力，迫不及待打开，手感不错！五年花粉",
+            "pingjiaimg": "https://res.vmallres.com/rms/comment/image/U0434/BC416F654CD5C5969897087642CE12BEEFD0A6D6294C801B8BE90FEAC3922C2E/100/2ea9d1b632f2413fc04f2565.jpg",
             "adsimg": [
                 {
                     "id": "b2a1",
@@ -319,16 +309,11 @@
                 }
             ],
             "xiangou": "3",
-            "pingjia": [
-                {
-                    "id": "c3pj",
-                    "pinjianum": "30364",
-                    "header-img": "https://res.vmallres.com/rms/comment/image/U0401/FB9DC243B7CFE44E5B6E34CAF66051F97398ECD4B601E93F3924574251A447B2/ccc43a51c62785493685e0ab.jpg",
-                    "pingjianame": "崔**",
-                    "pingjia-txt": "这速度没的说，昨天上午下单，今天上午就收到啦，超级有质感，音质没的说",
-                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0401/FB9DC243B7CFE44E5B6E34CAF66051F97398ECD4B601E93F3924574251A447B2/100/b361f5fa9c002f215f33d55c.jpg"
-                }
-            ],
+            "pingjianum": "30364",
+            "headerimg": "https://res.vmallres.com/rms/comment/image/U0401/FB9DC243B7CFE44E5B6E34CAF66051F97398ECD4B601E93F3924574251A447B2/ccc43a51c62785493685e0ab.jpg",
+            "pingjianame": "崔**",
+            "pingjiatxt": "这速度没的说，昨天上午下单，今天上午就收到啦，超级有质感，音质没的说",
+            "pingjiaimg": "https://res.vmallres.com/rms/comment/image/U0401/FB9DC243B7CFE44E5B6E34CAF66051F97398ECD4B601E93F3924574251A447B2/100/b361f5fa9c002f215f33d55c.jpg",
             "adsimg": [
                 {
                     "id": "c3a1",
@@ -437,16 +422,11 @@
                 }
             ],
             "xiangou": "20",
-            "pingjia": [
-                {
-                    "id": "d4pj",
-                    "pinjianum": "9743",
-                    "header-img": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
-                    "pingjianame": "x******",
-                    "pingjia-txt": "屏幕看起来还不错，音响设备两边都有非常好，声音听起来比较立体环绕，触控也比较灵敏，用来上网课非常好，赞",
-                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0441/86C2F835687105672D494DEF2E78E89A48099B1A2BCE05CA5E952B4ADDB75E0B/100/06feb5ce761c93e68f22f668.jpg"
-                }
-            ],
+            "pingjianum": "9743",
+            "headerimg": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
+            "pingjianame": "x******",
+            "pingjiatxt": "屏幕看起来还不错，音响设备两边都有非常好，声音听起来比较立体环绕，触控也比较灵敏，用来上网课非常好，赞",
+            "pingjiaimg": "https://res.vmallres.com/rms/comment/image/U0441/86C2F835687105672D494DEF2E78E89A48099B1A2BCE05CA5E952B4ADDB75E0B/100/06feb5ce761c93e68f22f668.jpg",
             "adsimg": [
                 {
                     "id": "d4a1",
@@ -552,16 +532,11 @@
                 }
             ],
             "xiangou": "10",
-            "pingjia": [
-                {
-                    "id": "e5pj",
-                    "pinjianum": "82798",
-                    "header-img": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
-                    "pingjianame": "不**",
-                    "pingjia-txt": "手表收到，物流妥妥的次日达，上手很快，配合华为手机简直了，支持国产品牌，希望越做越好。",
-                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0967/D6BC3A3136FE30737138A954F3D578D5CFA26B089AFF9146F3B18C126F672F15/100/7c841c436e7bba2fd779c14b.jpg"
-                }
-            ],
+            "pingjianum": "82798",
+            "headerimg": "https://res.vmallres.com/nwap/20170828/images/echannelWap/misc/defaultface_user_after.png",
+            "pingjianame": "不**",
+            "pingjiatxt": "手表收到，物流妥妥的次日达，上手很快，配合华为手机简直了，支持国产品牌，希望越做越好。",
+            "pingjiaimg": "https://res.vmallres.com/rms/comment/image/U0967/D6BC3A3136FE30737138A954F3D578D5CFA26B089AFF9146F3B18C126F672F15/100/7c841c436e7bba2fd779c14b.jpg",
             "adsimg": [
                 {
                     "id": "e5a1",
@@ -671,16 +646,11 @@
                 }
             ],
             "xiangou": "20",
-            "pingjia": [
-                {
-                    "id": "f6pj",
-                    "pinjianum": "1685",
-                    "header-img": "https://res.vmallres.com/rms/comment/image/U0485/7A28AE2D6862522EBAF284EC1A1BCC0C16EA05AB8DCADC2B91D7D92105D7D8F8/bf78ef05d1fe8c1bb1129fcd.jpg",
-                    "pingjianame": "D*******",
-                    "pingjia-txt": "买的第二台了，外观漂亮，速度快，与华为手机互联相当方便。支持华为创新。",
-                    "pingjia-img": "https://res.vmallres.com/rms/comment/image/U0485/7A28AE2D6862522EBAF284EC1A1BCC0C16EA05AB8DCADC2B91D7D92105D7D8F8/100/e242160b43f9a16981911a33.jpg"
-                }
-            ],
+            "pingjianum": "1685",
+            "headerimg": "https://res.vmallres.com/rms/comment/image/U0485/7A28AE2D6862522EBAF284EC1A1BCC0C16EA05AB8DCADC2B91D7D92105D7D8F8/bf78ef05d1fe8c1bb1129fcd.jpg",
+            "pingjianame": "D*******",
+            "pingjiatxt": "买的第二台了，外观漂亮，速度快，与华为手机互联相当方便。支持华为创新。",
+            "pingjiaimg": "https://res.vmallres.com/rms/comment/image/U0485/7A28AE2D6862522EBAF284EC1A1BCC0C16EA05AB8DCADC2B91D7D92105D7D8F8/100/e242160b43f9a16981911a33.jpg",
             "adsimg": [
                 {
                     "id": "f6a1",

@@ -2,19 +2,14 @@
     <div class="container">
         <div class="title">
             <span>购物车</span>
-            <div v-if="cartNumber>0" class="bianji" @click="btnbianji">
-                <span v-if="isbianji==false">编辑</span>
+            <div v-if="cartNumber > 0" class="bianji" @click="btnbianji">
+                <span v-if="isbianji == false">编辑</span>
                 <span v-else>完成</span>
             </div>
         </div>
         <div class="cart-goods">
             <!-- 购物车有商品 -->
-            <div class="cart-goods-detail" v-if="cartNumber>0">
-
-
-
-
-            </div>
+            <div class="cart-goods-detail" v-if="cartNumber > 0"></div>
             <!-- 购物车为空 -->
             <div class="cart-goods-none" v-else>
                 <section class="empty-cart">
@@ -38,7 +33,7 @@
                     </header>
                     <div class="b">
                         <ul>
-                            <li v-for="(item,index) in goodslist" :key="item.id" @click="togoodsdetail(index)">
+                            <li v-for="(item, index) in goodslist" :key="item.id" @click="togoodsdetail(index)">
                                 <div>
                                     <p class="p-img">
                                         <img :src="item.img" alt="" />
@@ -67,7 +62,7 @@ import axios from 'axios';
 export default {
     data() {
         return {
-            isbianji:false,
+            isbianji: false,
             goodslist: [],
         };
     },
@@ -93,17 +88,17 @@ export default {
                     console.log(error);
                 });
         },
-        btnbianji(){
-            this.isbianji=!this.isbianji
+        btnbianji() {
+            this.isbianji = !this.isbianji;
         },
-        togoodsdetail(index){
+        togoodsdetail(index) {
             this.$router.push({
-                path:"/todetail",
-                query:{
-                    id:index
-                }
-            })
-        }
+                path: '/todetail',
+                query: {
+                    id: index,
+                },
+            });
+        },
     },
     created() {
         this.getData();
@@ -128,15 +123,15 @@ export default {
     background-color: #fff;
     position: relative;
 }
-.bianji{
+.bianji {
     position: absolute;
-    right: .8rem;
+    right: 0.8rem;
     top: 50%;
-    margin-top: -.6rem;
+    margin-top: -0.6rem;
     line-height: 1.72;
-    padding: 0 .4rem;
+    padding: 0 0.4rem;
     text-align: center;
-    font-size: .75rem;
+    font-size: 0.75rem;
     color: #888;
 }
 .cart-goods {
@@ -226,13 +221,13 @@ export default {
 .system-pro-list > .b > ul > li:nth-child(2n + 1) > div {
     margin-left: 0;
 }
-.system-pro-list > .b > ul > li > div>.p-img {
+.system-pro-list > .b > ul > li > div > .p-img {
     color: #333;
     height: 6.5rem;
     width: 6.5rem;
     margin: 0 auto;
 }
-.system-pro-list > .b > ul > li > div>.p-img > img {
+.system-pro-list > .b > ul > li > div > .p-img > img {
     width: 100%;
     height: 100%;
 }
@@ -284,7 +279,4 @@ export default {
     top: 0.3rem;
     right: 0.3rem;
 }
-
-
-
 </style>
