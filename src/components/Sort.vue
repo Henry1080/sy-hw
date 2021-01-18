@@ -40,7 +40,7 @@
                                 </h3>
                             </div>
                             <ul class="goods-list">
-                                <li v-for="items in item.contentlist" :key="items.id">
+                                <li v-for="(items,index) in item.contentlist" :key="items.id" @click="togoodsdetail(index)">
                                     <div class="pro-panels">
                                         <div class="p-img" :style="'background-image:url(' + items.img + ')'"></div>
                                         <div class="p-name">
@@ -167,9 +167,19 @@ export default {
                 path: '/search',
             });
         },
+        togoodsdetail(index) {
+            if(index<=5){
+                this.$router.push({
+                    path: '/todetail',
+                    query: {
+                        id: index,
+                    },
+                });
+            }
+        },
     },
     created() {
-        this.getData();
+        this.getData(); 
     },
 };
 </script>

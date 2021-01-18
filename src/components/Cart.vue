@@ -2,14 +2,16 @@
     <div class="container">
         <div class="title">
             <span>购物车</span>
-            <div v-if="cartNumber > 0" class="bianji" @click="btnbianji">
+            <div v-if="shopcart.length>0" class="bianji" @click="btnbianji">
                 <span v-if="isbianji == false">编辑</span>
                 <span v-else>完成</span>
             </div>
         </div>
         <div class="cart-goods">
             <!-- 购物车有商品 -->
-            <div class="cart-goods-detail" v-if="cartNumber > 0"></div>
+            <div class="cart-goods-detail" v-if="shopcart.length>0">
+                
+            </div>
             <!-- 购物车为空 -->
             <div class="cart-goods-none" v-else>
                 <section class="empty-cart">
@@ -64,12 +66,24 @@ export default {
         return {
             isbianji: false,
             goodslist: [],
+             goodsdetail: {
+                img: '',
+                name: '',
+                price: '',
+                color: '',
+                banben: '',
+                xiangou: '',
+            },
+            list:[],
         };
     },
     computed: {
         cartNumber() {
             return this.$store.state.cartNumber;
         },
+        shopcart(){
+            return this.$store.state.shopcart;
+        }
     },
     methods: {
         btnClick(item) {
@@ -83,6 +97,26 @@ export default {
                 .then(function(response) {
                     // console.log(response);
                     that.goodslist = response.data.goodslist;
+                })
+                .catch(function(error) {
+                    console.log(error);
+                });
+        },
+        getData2(){
+            let that = this;
+            let url = 'http://localhost:8080/data/goodsdetail.json';
+            axios
+                .get(url)
+                .then(function(response) {
+                    // console.log(response);
+                    that.list = response.data.goodsdetaillist;
+                    
+                    that.goodsdetail.img = that.list.swiperlist[0].imgs;
+                    that.goodsdetail.color = that.list.color[0].c1;
+                    that.goodsdetail.banben = that.list.banben[0].b1;
+                    that.goodsdetail.name = that.list.name;
+                    that.goodsdetail.xiangou = that.list.xiangou;
+                    that.goodsdetail.price = that.list.price;
                 })
                 .catch(function(error) {
                     console.log(error);
@@ -102,6 +136,11 @@ export default {
     },
     created() {
         this.getData();
+        let abc = JSON.parse(localStorage.getItem('shopcart'));
+        if (abc) {
+            this.$store.state.shopcart = abc;
+        }
+        console.log(this.$store.state.shopcart);
     },
 };
 </script>
