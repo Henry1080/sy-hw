@@ -338,7 +338,7 @@ export default {
                     that.goodsdetail.img = that.goodsdetaillist.swiperlist[0].imgs;
                     that.goodsdetail.color = that.goodsdetaillist.color[0].c1;
                     that.goodsdetail.banben = that.goodsdetaillist.banben[0].b1;
-                    that.goodsdetail.name = that.goodsdetaillist.name;
+                    that.goodsdetail.name = that.goodsdetaillist.namedetail;
                     that.goodsdetail.xiangou = that.goodsdetaillist.xiangou;
                     that.goodsdetail.price = that.goodsdetaillist.price;
                 })
@@ -423,7 +423,7 @@ export default {
         // 添加购物车
         add(item, name) {
             this.$store.commit('add', item);
-            console.log(this.$store.state.shopcart);
+            // console.log(this.$store.state.shopcart);
             this.$router.push({
                 path: '/',
             });

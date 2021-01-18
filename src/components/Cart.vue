@@ -2,16 +2,14 @@
     <div class="container">
         <div class="title">
             <span>购物车</span>
-            <div v-if="shopcart.length>0" class="bianji" @click="btnbianji">
+            <div v-if="shopcart.length > 0" class="bianji" @click="btnbianji">
                 <span v-if="isbianji == false">编辑</span>
                 <span v-else>完成</span>
             </div>
         </div>
         <div class="cart-goods">
             <!-- 购物车有商品 -->
-            <div class="cart-goods-detail" v-if="shopcart.length>0">
-                
-            </div>
+            <div class="cart-goods-detail" v-if="shopcart.length > 0"></div>
             <!-- 购物车为空 -->
             <div class="cart-goods-none" v-else>
                 <section class="empty-cart">
@@ -35,8 +33,8 @@
                     </header>
                     <div class="b">
                         <ul>
-                            <li v-for="(item, index) in goodslist" :key="item.id" @click="togoodsdetail(index)">
-                                <div>
+                            <li v-for="(item, index) in goodslist" :key="item.id">
+                                <div @click="togoodsdetail(index)">
                                     <p class="p-img">
                                         <img :src="item.img" alt="" />
                                     </p>
@@ -49,7 +47,7 @@
                                         <del v-if="item.price2"> ￥{{ item.price2 }}</del>
                                     </p>
                                 </div>
-                                <i class="icon-addToCart"></i>
+                                <i class="icon-addToCart" @click.self="add(goodsdetail,index)"></i>
                             </li>
                         </ul>
                     </div>
@@ -66,7 +64,7 @@ export default {
         return {
             isbianji: false,
             goodslist: [],
-             goodsdetail: {
+            goodsdetail: {
                 img: '',
                 name: '',
                 price: '',
@@ -74,16 +72,17 @@ export default {
                 banben: '',
                 xiangou: '',
             },
-            list:[],
+            // 商品详情数据
+            list: [],
         };
     },
     computed: {
         cartNumber() {
             return this.$store.state.cartNumber;
         },
-        shopcart(){
+        shopcart() {
             return this.$store.state.shopcart;
-        }
+        },
     },
     methods: {
         btnClick(item) {
@@ -102,7 +101,7 @@ export default {
                     console.log(error);
                 });
         },
-        getData2(){
+        getData2() {
             let that = this;
             let url = 'http://localhost:8080/data/goodsdetail.json';
             axios
@@ -110,13 +109,6 @@ export default {
                 .then(function(response) {
                     // console.log(response);
                     that.list = response.data.goodsdetaillist;
-                    
-                    that.goodsdetail.img = that.list.swiperlist[0].imgs;
-                    that.goodsdetail.color = that.list.color[0].c1;
-                    that.goodsdetail.banben = that.list.banben[0].b1;
-                    that.goodsdetail.name = that.list.name;
-                    that.goodsdetail.xiangou = that.list.xiangou;
-                    that.goodsdetail.price = that.list.price;
                 })
                 .catch(function(error) {
                     console.log(error);
@@ -133,15 +125,34 @@ export default {
                 },
             });
         },
+        getData3(index){
+            this.goodsdetail.img = this.list[index].swiperlist[0].imgs;
+            this.goodsdetail.color = this.list[index].color[0].c1;
+            this.goodsdetail.banben = this.list[index].banben[0].b1;
+            this.goodsdetail.name = this.list[index].namedetail;
+            this.goodsdetail.xiangou =this.list[index].xiangou;
+            this.goodsdetail.price = this.list[index].price;
+        },
+        add(item, index) {
+            this.getData3(index)
+            this.$store.commit('add', item);
+            // console.log(this.$store.state.shopcart);
+        },
     },
     created() {
         this.getData();
+        this.getData2();
         let abc = JSON.parse(localStorage.getItem('shopcart'));
         if (abc) {
             this.$store.state.shopcart = abc;
         }
-        console.log(this.$store.state.shopcart);
     },
+    watch:{
+        // 监听购物车变化本地存储
+        shopcart(newVal) {
+            localStorage.setItem('shopcart', JSON.stringify(newVal));
+        }
+    }
 };
 </script>
 
