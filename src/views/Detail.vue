@@ -241,11 +241,13 @@
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARfSURBVGhD7ZjZK7R9GMffv8O+71maEGULB5QjSo6k5ACPLClbcojU4IBEFDkTg2PCmcg0RxTKzpOx7+v3dV1zD2PcT8/c92+Yed/mW79m7m26Pr9rvecf/E/kAnE2uUCcTd8CcnNzg/X1dfT19aG0tBS5ubkoKChAQ0MDpqencXJygsfHR+lu+8huIK+vr3h4eMDc3BxKSkoQFRWF0NBQhIWFfVohISFISUlBa2srtra28PT0JP2CmOwC8vLygsvLS3R2diI4OBjh4eHIy8tjj+j1ehweHmJ7exszMzNoampCWloa35eRkYHFxUXeAFEJg5Anrq+vUVlZCW9vbyQkJMBgMOD29pavWYvOnZ6eoq2tDYGBgew5gqXNEJEwCO1mb28vfH19ORf29vZsMopCampqCkFBQYiOjsba2posuK0SBllZWeEwIU8QhBJjCGZsbAz+/v4oKioSyhchEAqfuro63tXZ2VnFO0r3X1xcID8/n8NyYWEBz8/P0lVlEgKhqhMTE8PeuLq6ks4qExm+uroKHx8fVFVV4f7+XrqiTEIg4+Pj7I3m5macnZ1xb1DiFcol8ur+/j6SkpK4ilEPUiMhkI6ODg6JiIgIJCcnc7m9u7uzCYYgNjY2UFZWhsjISM4T6jFqPSsEQj3Bw8MDAQEBbISnpycmJiZsSlryRHFxMYcUNU76dHd3536kRkIgjY2NDLG0tMS76+bmhvLycvbK32Q0GrnsUjjRyEJQDgWh0ntwcMBNkUBoPLEF5Pj4mCeA7OxsTvCampr/LgjlVlZWFoNUV1c7DqS9vZ1Dq7u7G8PDwwxSX19v0+xEVS4xMRGxsbE80pBnaDpwSLLTWJGamsowVIbj4uK4J9jS1AiWNoCKBD3v5eWFzMxMx5Rf6hsE09LSwr2ExhUlnZnCaGRkhL1BYWWrN+UkBCIq6jc0CROIn58flpeXHTOiiIggKMkHBga4GdJ4ohaC5DAQappDQ0MMER8fj52dHUXjjbV+HISM3dzcRG1tLYcTVS7RdxHSt4JQPxkcHOQSS9Wtv78fhYWF3D/o7TAnJwe7u7tC7yFmfSsIldL09HTuL1SVqETTXEXJPTo6iqOjI6G8sNS3glAppT8c6OWLSmtPTw/m5+dxfn5uFy9YymHJbm+5QJxNLhBnk91AjJMV0HQZpKOvMnRpoNFIi+7Taz+OLZZWLz2gUCpBjND9+mqE7JLgDF0V0P1++/JbhwoJpGLSyNfMos1wAIgWkonQaszfrWQ2+k22gJDXfhhE0h/Cw7QkwyXJhRaDEJj5/C/d2xapk2oQs2HaSTLE0iPkIY3Mbv/dIyKyU7KbjDftuHyYyYG8e8hiqYVTBcIV6pMBXz3ycc0EIB9aOmgtwslhOfIVyHJZ54h8aL0bT+cdkSMkAvlTKLwbzqIqJw/y4cHP4Er1Mx6x3G1rEDqWnlGbH6Sf8YhktBmcn3k7ZwL+yC9THqnzjBCIM8kF4mxygTiXgH8Bi9eRUHbhOp8AAAAASUVORK5CYII=" alt="" />
                     </li>
                     <li @click="toHome('cart')">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASMSURBVGhD7Ve5SytfFP79He77ghsYUFw6UbBQwULRysZGeGkUQbDTQlQMgmChnaKNSiIuhViJhaKEIOKCqIhbNI377vnlOzOTTBZN7mQe5r2XD44zzr135nznfOfcm//oL0GESLghQiTc8O8SeX9/p76+Pmpubqbu7m46ODigt7c3efTnIEzk4eGBysrKKCsri9LT06m0tJRWVlbo8/NTnvEzECYCh6+vr2lnZ4eGhoYoOzubSkpK6Pb21jUO+/j4ELZQghFSjTw+PlJHRwdlZmbS9vY2O2K322l/f5/29vaEDGtOT08545CvKEIiAsenpqYoJSWFLBYLZwqSi42N1WRxcXFUU1NDZ2dnwtkJiQiwvr5OGRkZ1NbWxvIYHx+n/v5+6u3tFbaWlhaKj4+nrq4uen5+lr8QHEImAjnk5eVRYWEhE0EHe319pZeXF2E7Ojqi5ORkamhoYImJIGQi9/f3VF9fT0lJSXR8fKy5YLFubW2N3/MjGUEkR0ZGKCEhgRYWFjgrWoB1k5OTlJiYSEtLS8IFHzIROLC7u8uSgM61bo5wvLOzk+sNHUwUIRMB0HINBgM1NjZyfWgBAlBdXU0FBQV0fn4uPw0euhC5ubmhyspKbr1PT0/yUzGg1tDGKyoq+H2i0IUInG9tbaXo6Giy2WzCdYL5GxsbvJe0t7drCoYuRCCL2dlZioqKouHhYWF5Yf7o6CjFxMTwe7TUmS5E0DodDgdvZk1NTXx0EQEyYDQaef3V1ZWmFq4LEQDO4HiRm5tLMzMzdHFxweQCGRrF8vIyN4vy8nLhjVCBbkTQPhcXFyk/P59bKAo/JycnoOH0jEMnrhMTE5q7nm5EABTt1tYWy6u4uJiPLYGsqKiI6urqaHV1VfMeBOhKBNrG0QI1gsgG0jrG4TzmY52W2lCgGxE4Ac3X1tbyftDT0xOwjcL5gYEBSk1NpaqqKrq8vNRMRtcamZ6e5jMX2jD0f3h4KI/6x8nJCTcHzMdvkbGxMc3y0o0I6gO/9FDoaKPIzN3dnTzqH9jNUR8gkZaWxvUlupkq0LVGkBWr1Upzc3N8Xgp0gsU45DQ/P0+bm5sB538HXYn8JCJEwg0RIuGGf4iI1cQnU5cN2pwPHWT+ZSSzXZriD7ZB1TjewesCwUYmg8n5VxxBETFaHNK93UxGOISrmhyb7Lg8X03ENmggk1W6/xZBE/ZFkERsUgasIGL2mw3FcYfF6EUEUfYm7Uncd8yffZ8pcSJ46S8zOeTIK1AcR/TVDhid63ienE0QRXY8pAeEkA1AgIgzIoq0nPB0RKkZXKXISePObIA0ZnhkyrvGvGoD35HXBQuNRJwfxtX1v+zYtidRE4xrw5uomzCPOkmqs+hratL+oYmIIg/JQcUx5WO4lxxwSU+RjQdxNxEf/JaMMKSClRxzO6qYyepLyCU9OCXLxt29vKTkjd9FxF2gqigrUGdMfgT41AKy4nJOqR3foHxnPt9WITARj+ioHPOAb4RdGQFAQqSY9c+IIhk/YMl8Ha2vpKXMlyT2BfQn8ucgQiTc8JcQIfofzqFn/l1BHA0AAAAASUVORK5CYII=" alt="" />
+                        <el-badge :value="cartNumber">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASMSURBVGhD7Ve5SytfFP79He77ghsYUFw6UbBQwULRysZGeGkUQbDTQlQMgmChnaKNSiIuhViJhaKEIOKCqIhbNI377vnlOzOTTBZN7mQe5r2XD44zzr135nznfOfcm//oL0GESLghQiTc8O8SeX9/p76+Pmpubqbu7m46ODigt7c3efTnIEzk4eGBysrKKCsri9LT06m0tJRWVlbo8/NTnvEzECYCh6+vr2lnZ4eGhoYoOzubSkpK6Pb21jUO+/j4ELZQghFSjTw+PlJHRwdlZmbS9vY2O2K322l/f5/29vaEDGtOT08545CvKEIiAsenpqYoJSWFLBYLZwqSi42N1WRxcXFUU1NDZ2dnwtkJiQiwvr5OGRkZ1NbWxvIYHx+n/v5+6u3tFbaWlhaKj4+nrq4uen5+lr8QHEImAjnk5eVRYWEhE0EHe319pZeXF2E7Ojqi5ORkamhoYImJIGQi9/f3VF9fT0lJSXR8fKy5YLFubW2N3/MjGUEkR0ZGKCEhgRYWFjgrWoB1k5OTlJiYSEtLS8IFHzIROLC7u8uSgM61bo5wvLOzk+sNHUwUIRMB0HINBgM1NjZyfWgBAlBdXU0FBQV0fn4uPw0euhC5ubmhyspKbr1PT0/yUzGg1tDGKyoq+H2i0IUInG9tbaXo6Giy2WzCdYL5GxsbvJe0t7drCoYuRCCL2dlZioqKouHhYWF5Yf7o6CjFxMTwe7TUmS5E0DodDgdvZk1NTXx0EQEyYDQaef3V1ZWmFq4LEQDO4HiRm5tLMzMzdHFxweQCGRrF8vIyN4vy8nLhjVCBbkTQPhcXFyk/P59bKAo/JycnoOH0jEMnrhMTE5q7nm5EABTt1tYWy6u4uJiPLYGsqKiI6urqaHV1VfMeBOhKBNrG0QI1gsgG0jrG4TzmY52W2lCgGxE4Ac3X1tbyftDT0xOwjcL5gYEBSk1NpaqqKrq8vNRMRtcamZ6e5jMX2jD0f3h4KI/6x8nJCTcHzMdvkbGxMc3y0o0I6gO/9FDoaKPIzN3dnTzqH9jNUR8gkZaWxvUlupkq0LVGkBWr1Upzc3N8Xgp0gsU45DQ/P0+bm5sB538HXYn8JCJEwg0RIuGGf4iI1cQnU5cN2pwPHWT+ZSSzXZriD7ZB1TjewesCwUYmg8n5VxxBETFaHNK93UxGOISrmhyb7Lg8X03ENmggk1W6/xZBE/ZFkERsUgasIGL2mw3FcYfF6EUEUfYm7Uncd8yffZ8pcSJ46S8zOeTIK1AcR/TVDhid63ienE0QRXY8pAeEkA1AgIgzIoq0nPB0RKkZXKXISePObIA0ZnhkyrvGvGoD35HXBQuNRJwfxtX1v+zYtidRE4xrw5uomzCPOkmqs+hratL+oYmIIg/JQcUx5WO4lxxwSU+RjQdxNxEf/JaMMKSClRxzO6qYyepLyCU9OCXLxt29vKTkjd9FxF2gqigrUGdMfgT41AKy4nJOqR3foHxnPt9WITARj+ioHPOAb4RdGQFAQqSY9c+IIhk/YMl8Ha2vpKXMlyT2BfQn8ucgQiTc8JcQIfofzqFn/l1BHA0AAAAASUVORK5CYII=" alt="" />
+                        </el-badge>
                     </li>
                 </ul>
                 <div class="buy-box">
-                    <div class="join" @click="add(goodsdetail, 'cart')">加入购物车</div>
+                    <div class="join" @click="add(goodsdetail)">加入购物车</div>
                     <div class="buyatonce">立即购买</div>
                 </div>
             </div>
@@ -303,6 +305,9 @@ export default {
         shopcart() {
             return this.$store.state.shopcart;
         },
+        cartNumber(){
+            return this.$store.state.cartNumber
+        }
     },
     methods: {
         // 关闭顶部app横幅
@@ -421,13 +426,13 @@ export default {
             });
         },
         // 添加购物车
-        add(item, name) {
+        add(item) {
             this.$store.commit('add', item);
             // console.log(this.$store.state.shopcart);
-            this.$router.push({
-                path: '/',
-            });
-            this.$store.commit('btnClick', name);
+            // this.$router.push({
+            //     path: '/',
+            // });
+            // this.$store.commit('btnClick', name);
         },
     },
     activated() {
@@ -457,7 +462,7 @@ export default {
         },
         shopcart(newVal) {
             localStorage.setItem('shopcart', JSON.stringify(newVal));
-        },
+        }
     },
 };
 </script>

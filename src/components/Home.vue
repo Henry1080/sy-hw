@@ -58,9 +58,7 @@ import Cart from './Cart.vue';
 import My from './My.vue';
 export default {
     data() {
-        return {
-            
-        };
+        return {};
     },
     components: {
         mains: Mains,
@@ -80,7 +78,18 @@ export default {
         btnClick(item) {
             this.$store.commit('btnClick', item);
         },
-    }
+    },
+    created() {
+        let abc = JSON.parse(localStorage.getItem('shopcart'));
+        if (abc) {
+            this.$store.state.shopcart = abc;
+            let num = 0;
+            this.$store.state.shopcart.forEach((item) => {
+                num += item.number;
+                this.$store.state.cartNumber = num;
+            });
+        }
+    },
 };
 </script>
 
