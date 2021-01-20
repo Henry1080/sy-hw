@@ -78,16 +78,15 @@ export default {
         btnClick(item) {
             this.$store.commit('btnClick', item);
         },
+        updatemessage(){
+            this.$store.commit('updatemessage');
+        }
     },
     created() {
         let abc = JSON.parse(localStorage.getItem('shopcart'));
         if (abc) {
             this.$store.state.shopcart = abc;
-            let num = 0;
-            this.$store.state.shopcart.forEach((item) => {
-                num += item.number;
-                this.$store.state.cartNumber = num;
-            });
+            this.updatemessage()
         }
     },
 };

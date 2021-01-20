@@ -428,11 +428,6 @@ export default {
         // 添加购物车
         add(item) {
             this.$store.commit('add', item);
-            // console.log(this.$store.state.shopcart);
-            // this.$router.push({
-            //     path: '/',
-            // });
-            // this.$store.commit('btnClick', name);
         },
     },
     activated() {
@@ -460,9 +455,6 @@ export default {
                 this.isyixuan = false;
             }
         },
-        shopcart(newVal) {
-            localStorage.setItem('shopcart', JSON.stringify(newVal));
-        }
     },
 };
 </script>

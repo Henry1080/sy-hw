@@ -1,0 +1,173 @@
+{
+    "code": 200,
+    "status": "success",
+    "list": [
+        {
+            "id": "1a",
+            "text": "积分",
+            "m1": "-",
+            "m2": "478"
+        },
+        {
+            "id": "2b",
+            "text": "优惠券",
+            "m1": "-",
+            "m2": "4"
+        },
+        {
+            "id": "3c",
+            "text": "代金券",
+            "m1": "-",
+            "m2": "0.00"
+        }
+    ],
+    "swiperlist": [
+        {
+            "id": "a1",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/89082215011611228098.png"
+        },
+        {
+            "id": "b2",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/03608252701615280630.jpg"
+        },
+        {
+            "id": "c3",
+            "img": "https://res.vmallres.com/pimages//pages/picImages/60902993601619920906.jpg"
+        }
+    ],
+    "rowlist": [
+        {
+            "id": "a11",
+            "img": "0 0",
+            "text": "待付款"
+        },
+        {
+            "id": "b22",
+            "img": "0 -2rem",
+            "text": "待收货"
+        },
+        {
+            "id": "c33",
+            "img": "0 -4rem",
+            "text": "待评价"
+        },
+        {
+            "id": "d44",
+            "img": "0 -6rem",
+            "text": "退换/退款"
+        },
+        {
+            "id": "e55",
+            "img": "0 -8rem",
+            "text": "回收单"
+        }
+    ],
+    "viplist": [
+        {
+            "id": "a111",
+            "num1": "20",
+            "num2": "20积分",
+            "text": "【会员新人专享】华为数码 满399元减20元优惠券"
+        },
+        {
+            "id": "b222",
+            "num1": "100",
+            "num2": "10积分",
+            "text": "【积分兑换券】贝昂无耗材空气净化器100元优惠券"
+        },
+        {
+            "id": "c333",
+            "num1": "20",
+            "num2": "20积分",
+            "text": "【积分兑换券】孩视宝智能面加环读写台灯 20元优惠券"
+        }
+    ],
+    "rowlist2": [
+        {
+            "id": "aa1",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/70466974469517966407.png",
+            "txt": "会员频道"
+        },
+        {
+            "id": "bb2",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/05247974469517974250.png",
+            "txt": "邀请有礼"
+        },
+        {
+            "id": "cc3",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/08019382301618391080.png",
+            "txt": "优享购"
+        },
+        {
+            "id": "dd4",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/0FHCWcjJLxXDvHYzrHcE.png",
+            "txt": "优购码"
+        }
+    ],
+    "rowlist22":[
+        {
+            "id": "ee5",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/aXHSj2n7eZ3Zwr4sdXTm.png",
+            "txt": "我的拼团"
+        },
+        {
+            "id": "ff6",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/9wVcOCYjKQ5oKQ5ujcFN.png",
+            "txt": "收货地址"
+        },
+        {
+            "id": "gg7",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/pKum8NDxC8g3guJhIaEN.png",
+            "txt": "预约记录"
+        },
+        {
+            "id": "hh8",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/zuLd2CorbQ6Vo2zeyBOV.png",
+            "txt": "企业购"
+        }
+    ],
+    "rowlist3": [
+        {
+            "id": "11a",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/3CqWFKmzSVTG5WYvrNx8.png",
+            "txt": "自助服务"
+        },
+        {
+            "id": "22b",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/gvy89qnAExuDJDjdaWgP.png",
+            "txt": "特色服务"
+        },
+        {
+            "id": "33c",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/rPbRWRHAWMAVCovRBehZ.png",
+            "txt": "零售店"
+        },
+        {
+            "id": "44d",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/MOV599G1zaOvU7sM3tMd.png",
+            "txt": "实名认证"
+        }
+    ],
+    "rowlist33": [
+        {
+            "id": "55e",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/BcFUNcxBeM9fewTc16QC.png",
+            "txt": "以旧换新"
+        },
+        {
+            "id": "66f",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/v7aUv4jiCp2BhZmmVXWn.png",
+            "txt": "补购保障"
+        },
+        {
+            "id": "77g",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/bGbPRdKxBeiVPe50g3EG.png",
+            "txt": "一口价换电池"
+        },
+        {
+            "id": "88h",
+            "img": "https://res.vmallres.com/pimages/pages/mygrid/5j2OERFj8ut1nB6WBZcy.png",
+            "txt": "常见问题"
+        }
+    ]
+}

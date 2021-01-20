@@ -345,8 +345,8 @@
                 <div class="login">
                     <!-- 登录/退出 -->
                     <div class="loginbtn">
-                        <p v-if="isdenglu == false">登录</p>
-                        <p v-else>退出</p>
+                        <p v-if="isdenglu == false" @click="tologin">登录</p>
+                        <p v-else @click="exitdenglu">退出</p>
                     </div>
                     <!-- 反馈 -->
                     <a href="http://club.huawei.com/thread-1144534-1-1.html">反馈</a>
@@ -440,14 +440,14 @@ export default {
             return this.$refs.mySwiper.$swiper;
         },
         // 广告是否存在
-        ispullapp(){
-             return this.$store.state.ispullapp;
-        }
+        ispullapp() {
+            return this.$store.state.ispullapp;
+        },
     },
     methods: {
         // 关闭顶部app横幅
         closeapp() {
-            this.$store.commit("closeapp")
+            this.$store.commit('closeapp');
         },
         // 隐藏页面切换
         isotherpagebtn() {
@@ -470,7 +470,6 @@ export default {
                     (that.hour = '00'), (that.min = '00'), (that.sec = '00');
                 }
             }, 100);
-            
         },
         getDistance() {
             this.distance = this.$refs.wrap.scrollTop;
@@ -500,10 +499,17 @@ export default {
                     console.log(error);
                 });
         },
+        exitdenglu() {
+            this.$store.commit('exitdenglu');
+        },
+        tologin() {
+            this.$router.push({
+                path: '/login',
+            });
+        },
     },
     created() {
-        this.time(), 
-        this.getData();
+        this.time(), this.getData();
     },
     activated() {
         // 切入组件回到原来的滚动条高度
@@ -522,11 +528,7 @@ export default {
                 this.ispullapp2 = false;
             }
         },
-    },
-    // mounted() {
-    //     console.log('Current Swiper instance object', this.swiper);
-    //     this.swiper.slideTo(3, 1000, false);
-    // },
+    }
 };
 </script>
 

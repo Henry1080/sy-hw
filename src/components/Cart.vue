@@ -197,8 +197,8 @@ export default {
         },
     },
     methods: {
-        tabisdel(){
-            this.isdel=! this.isdel;
+        tabisdel() {
+            this.isdel = !this.isdel;
         },
         btnClick(item) {
             this.$store.commit('btnClick', item);
@@ -320,24 +320,13 @@ export default {
             }
             this.allchecked2 = !this.allchecked2;
         },
-        begin() {
-            let price = 0;
-            let num = 0;
-            for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-                let item = this.$store.state.shopcart[i];
-                price += item.number * item.price;
-                num += item.number;
-                this.$store.state.subprice = price;
-                this.$store.state.cartNumber2 = num;
-            }
-        },
         delgoods() {
             this.$store.commit('delgoods');
-            this.isdel=! this.isdel;
+            this.isdel = !this.isdel;
         },
-    },
-    activated() {
-        this.begin();
+        updatemessage() {
+            this.$store.commit('updatemessage');
+        },
     },
     created() {
         this.getData();
@@ -345,13 +334,8 @@ export default {
         let abc = JSON.parse(localStorage.getItem('shopcart'));
         if (abc) {
             this.$store.state.shopcart = abc;
+            this.updatemessage();
         }
-    },
-    watch: {
-        // 监听购物车变化本地存储
-        shopcart(newVal) {
-            localStorage.setItem('shopcart', JSON.stringify(newVal));
-        },
     },
 };
 </script>
