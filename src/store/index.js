@@ -139,6 +139,7 @@ export default new Vuex.Store({
             this.commit('updatemessage');
             this.commit('memory');
         },
+        // 退出登录
         exitdenglu(state) {
             state.isdenglu = false;
         },

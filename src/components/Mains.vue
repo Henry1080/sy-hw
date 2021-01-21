@@ -26,7 +26,7 @@
                 <div class="message"></div>
                 <div class="denglu">
                     <!-- 未登录 -->
-                    <div class="nodenglu" v-if="isdenglu == false">登录</div>
+                    <div class="nodenglu" v-if="isdenglu == false" @click="tologin">登录</div>
                     <!-- 已登录 -->
                     <div class="yidenglu" v-else></div>
                 </div>
