@@ -39,30 +39,36 @@ export default new Vuex.Store({
             let num = 0;
             // 购物车总数
             let num2 = 0;
-            state.shopcart.forEach((item) => {
-                num2 += item.number;
-                if (num2 > 0) {
-                    state.cartNumber = num2;
-                } else {
-                    state.cartNumber = '';
-                }
-                if (item.flag == true) {
-                    price += item.number * item.price;
-                    num += item.number;
-                    state.subprice = price;
-                    state.cartNumber2 = num;
-                }
-                if (state.cartNumber2 != 0 && state.cartNumber != 0) {
-                    if (state.cartNumber2 == state.cartNumber) {
-                        state.allchecked = true;
-                    } else {
+            if (state.shopcart.length > 0) {
+                state.shopcart.forEach((item) => {
+                    num2 += item.number;
+                    if (num2 > 0) {
+                        state.cartNumber = num2;
+                    }
+                    if (item.flag == true) {
+                        price += item.number * item.price;
+                        num += item.number;
+                        state.subprice = price;
+                        state.cartNumber2 = num;
+                    }
+                    // if (num2 <= 0) {
+                    //     state.cartNumber = '';
+                    // }
+                    if (state.cartNumber2 != 0 && state.cartNumber != 0) {
+                        if (state.cartNumber2 == state.cartNumber) {
+                            state.allchecked = true;
+                        } else {
+                            state.allchecked = false;
+                        }
+                    }
+                    if (state.cartNumber == '') {
                         state.allchecked = false;
                     }
-                }
-                if (state.cartNumber == '') {
-                    state.allchecked = false;
-                }
-            });
+                });
+            } else {
+                state.cartNumber = '';
+                state.allchecked = false;
+            }
         },
         add(state, item) {
             let index = -1;

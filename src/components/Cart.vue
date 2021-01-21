@@ -84,9 +84,9 @@
                         <!-- 全选 -->
                         <label class="checkbox2">
                             <input />
-                            <em @click="taballchecked2">
+                            <em @click="taballchecked">
                                 <!-- 默认不勾选 -->
-                                <i :class="{ active: allchecked2 == false }"></i>
+                                <i :class="{ active: allchecked == false }"></i>
                                 <span>全选</span>
                             </em>
                         </label>
@@ -146,7 +146,7 @@
                     <span>确定要删除所选商品吗？</span>
                 </header>
                 <footer>
-                    <div class="channel">
+                    <div class="channel" @click="tabisdel">
                         <span>取消</span>
                     </div>
                     <div class="sure" @click="delgoods">
@@ -230,28 +230,41 @@ export default {
                 });
         },
         btnbianji() {
-            if (this.isbianji == false) {
-                for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-                    let item = this.$store.state.shopcart[i];
-                    item.flag = false;
-                }
-            } else {
-                for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-                    let item = this.$store.state.shopcart[i];
-                    item.flag = true;
-                }
-            }
+            // if (this.isbianji == false) {
+            //     for (let i = 0; i < this.$store.state.shopcart.length; i++) {
+            //         let item = this.$store.state.shopcart[i];
+            //         item.flag = false;
+            //     }
+            // } else {
+            //     for (let i = 0; i < this.$store.state.shopcart.length; i++) {
+            //         let item = this.$store.state.shopcart[i];
+            //         item.flag = true;
+            //     }
+            // }
+            // this.isbianji = !this.isbianji;
+            // let price = 0;
+            // let num = 0;
+            // for (let i = 0; i < this.$store.state.shopcart.length; i++) {
+            //     let item = this.$store.state.shopcart[i];
+            //     price += item.number * item.price;
+            //     num += item.number;
+            //     this.$store.state.subprice = price;
+            //     this.$store.state.cartNumber2 = num;
+            // }
+            // this.$store.state.allchecked = true;
+            //  this.$store.commit('updatemessage');
             this.isbianji = !this.isbianji;
-            let price = 0;
-            let num = 0;
-            for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-                let item = this.$store.state.shopcart[i];
-                price += item.number * item.price;
-                num += item.number;
-                this.$store.state.subprice = price;
-                this.$store.state.cartNumber2 = num;
+            if (this.isbianji == false) {
+                this.$store.state.allchecked = true;
+                this.$store.state.shopcart.forEach((item) => {
+                item.flag = true;
+            });
+            } else {
+                this.$store.state.allchecked = false;
+            this.$store.state.shopcart.forEach((item) => {
+                item.flag = false;
+            });
             }
-            this.$store.state.allchecked = true;
         },
         togoodsdetail(index) {
             this.$router.push({
@@ -272,7 +285,6 @@ export default {
         add(item, index) {
             this.getData3(index);
             this.$store.commit('add', item);
-            // console.log(this.$store.state.shopcart);
         },
         addItem(index) {
             this.$store.commit('addItem', index);
@@ -306,22 +318,23 @@ export default {
             }
             this.$store.state.allchecked = !this.$store.state.allchecked;
         },
-        taballchecked2() {
-            if (this.allchecked2 == false) {
-                for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-                    let item = this.$store.state.shopcart[i];
-                    item.flag = true;
-                }
-            } else {
-                for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-                    let item = this.$store.state.shopcart[i];
-                    item.flag = false;
-                }
-            }
-            this.allchecked2 = !this.allchecked2;
-        },
+        // taballchecked2() {
+        //     // if (this.allchecked2 == false) {
+        //     //     for (let i = 0; i < this.$store.state.shopcart.length; i++) {
+        //     //         let item = this.$store.state.shopcart[i];
+        //     //         item.flag = true;
+        //     //     }
+        //     // } else {
+        //     //     for (let i = 0; i < this.$store.state.shopcart.length; i++) {
+        //     //         let item = this.$store.state.shopcart[i];
+        //     //         item.flag = false;
+        //     //     }
+        //     // }
+        //     // this.allchecked2 = !this.allchecked2;
+        // },
         delgoods() {
             this.$store.commit('delgoods');
+            // this.isbianji = !this.isbianji;
             this.isdel = !this.isdel;
         },
         updatemessage() {
@@ -335,6 +348,13 @@ export default {
         if (abc) {
             this.$store.state.shopcart = abc;
             this.updatemessage();
+        }
+    },
+    watch: {
+        shopcart(newVal){
+            if(newVal.length==0){
+                this.isbianji=false
+            }
         }
     },
 };
