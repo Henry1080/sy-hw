@@ -230,29 +230,6 @@ export default {
                 });
         },
         btnbianji() {
-            // if (this.isbianji == false) {
-            //     for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-            //         let item = this.$store.state.shopcart[i];
-            //         item.flag = false;
-            //     }
-            // } else {
-            //     for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-            //         let item = this.$store.state.shopcart[i];
-            //         item.flag = true;
-            //     }
-            // }
-            // this.isbianji = !this.isbianji;
-            // let price = 0;
-            // let num = 0;
-            // for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-            //     let item = this.$store.state.shopcart[i];
-            //     price += item.number * item.price;
-            //     num += item.number;
-            //     this.$store.state.subprice = price;
-            //     this.$store.state.cartNumber2 = num;
-            // }
-            // this.$store.state.allchecked = true;
-            //  this.$store.commit('updatemessage');
             this.isbianji = !this.isbianji;
             if (this.isbianji == false) {
                 this.$store.state.allchecked = true;
@@ -318,20 +295,6 @@ export default {
             }
             this.$store.state.allchecked = !this.$store.state.allchecked;
         },
-        // taballchecked2() {
-        //     // if (this.allchecked2 == false) {
-        //     //     for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-        //     //         let item = this.$store.state.shopcart[i];
-        //     //         item.flag = true;
-        //     //     }
-        //     // } else {
-        //     //     for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-        //     //         let item = this.$store.state.shopcart[i];
-        //     //         item.flag = false;
-        //     //     }
-        //     // }
-        //     // this.allchecked2 = !this.allchecked2;
-        // },
         delgoods() {
             this.$store.commit('delgoods');
             // this.isbianji = !this.isbianji;
@@ -340,6 +303,9 @@ export default {
         updatemessage() {
             this.$store.commit('updatemessage');
         },
+        updatemessage2() {
+            this.$store.commit('updatemessage2');
+        },
     },
     created() {
         this.getData();
@@ -347,7 +313,7 @@ export default {
         let abc = JSON.parse(localStorage.getItem('shopcart'));
         if (abc) {
             this.$store.state.shopcart = abc;
-            this.updatemessage();
+            this.updatemessage2();
         }
     },
     watch: {

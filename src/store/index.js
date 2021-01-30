@@ -51,9 +51,42 @@ export default new Vuex.Store({
                         state.subprice = price;
                         state.cartNumber2 = num;
                     }
-                    // if (num2 <= 0) {
-                    //     state.cartNumber = '';
-                    // }
+                    if (state.cartNumber2 != 0 && state.cartNumber != 0) {
+                        if (state.cartNumber2 == state.cartNumber) {
+                            state.allchecked = true;
+                        } else {
+                            state.allchecked = false;
+                        }
+                    }
+                    if (state.cartNumber == '') {
+                        state.allchecked = false;
+                    }
+                });
+            } else {
+                state.cartNumber = '';
+                state.allchecked = false;
+            }
+        },
+        updatemessage2(state) {
+            // 勾选总价
+            let price = 0;
+            // 勾选数
+            let num = 0;
+            // 购物车总数
+            let num2 = 0;
+            if (state.shopcart.length > 0) {
+                state.shopcart.forEach((item) => {
+                    item.flag = true;
+                    num2 += item.number;
+                    if (num2 > 0) {
+                        state.cartNumber = num2;
+                    }
+                    if (item.flag == true) {
+                        price += item.number * item.price;
+                        num += item.number;
+                        state.subprice = price;
+                        state.cartNumber2 = num;
+                    }
                     if (state.cartNumber2 != 0 && state.cartNumber != 0) {
                         if (state.cartNumber2 == state.cartNumber) {
                             state.allchecked = true;
@@ -139,7 +172,7 @@ export default new Vuex.Store({
             this.commit('memory');
         },
         delgoods(state) {
-            state.shopcart = state.shopcart.filter(function(item) {
+            state.shopcart = state.shopcart.filter(function (item) {
                 return item.flag == false;
             });
             this.commit('updatemessage');
