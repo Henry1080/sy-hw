@@ -15,6 +15,7 @@ export default new Vuex.Store({
         componentName: 'mains',
         // 顶部app横幅是否显示
         ispullapp: true,
+        // 是否全选
         allchecked: false,
         // 勾选数量
         cartNumber2: 0,
@@ -22,6 +23,7 @@ export default new Vuex.Store({
         subprice: 0,
     },
     mutations: {
+        // tab切换
         btnClick(state, item) {
             state.componentName = item;
         },
@@ -29,9 +31,11 @@ export default new Vuex.Store({
         closeapp(state) {
             state.ispullapp = false;
         },
+        // 本地存储
         memory(state) {
             localStorage.setItem('shopcart', JSON.stringify(state.shopcart));
         },
+        // 更新购物车
         updatemessage(state) {
             // 勾选总价
             let price = 0;
@@ -67,6 +71,7 @@ export default new Vuex.Store({
                 state.allchecked = false;
             }
         },
+        // 更新购物车
         updatemessage2(state) {
             // 勾选总价
             let price = 0;
@@ -103,6 +108,7 @@ export default new Vuex.Store({
                 state.allchecked = false;
             }
         },
+        // 点击添加商品
         add(state, item) {
             let index = -1;
             for (let i = 0; i < state.shopcart.length; i++) {
@@ -146,6 +152,7 @@ export default new Vuex.Store({
             }
             this.commit('memory');
         },
+        // 勾选
         gouxuan(state, index) {
             state.shopcart[index].flag = !state.shopcart[index].flag;
             let arrTrue = [];
@@ -171,6 +178,32 @@ export default new Vuex.Store({
             }
             this.commit('memory');
         },
+        // 全选/全不选
+        taballchecked(state) {
+            if (state.allchecked == false) {
+                let price = 0;
+                let num = 0;
+                for (let i = 0; i <state.shopcart.length; i++) {
+                    let item =state.shopcart[i];
+                    item.flag = true;
+                    price += item.number * item.price;
+                    num += item.number;
+                    state.subprice = price;
+                    state.cartNumber2 = num;
+                }
+            } else {
+                //取消全选
+                for (let i = 0; i <state.shopcart.length; i++) {
+                    let item = state.shopcart[i];
+                    item.flag = false;
+                    state.cartNumber2 = 0;
+                    state.subprice = 0;
+                }
+            }
+            state.allchecked = !state.allchecked;
+            this.commit('memory');
+        },
+        // 删除商品
         delgoods(state) {
             state.shopcart = state.shopcart.filter(function (item) {
                 return item.flag == false;

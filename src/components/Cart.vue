@@ -272,28 +272,9 @@ export default {
         danxuan(index) {
             this.$store.commit('gouxuan', index);
         },
+        // 全选/全不选
         taballchecked() {
-            if (this.$store.state.allchecked == false) {
-                let price = 0;
-                let num = 0;
-                for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-                    let item = this.$store.state.shopcart[i];
-                    item.flag = true;
-                    price += item.number * item.price;
-                    num += item.number;
-                    this.$store.state.subprice = price;
-                    this.$store.state.cartNumber2 = num;
-                }
-            } else {
-                //取消全选
-                for (let i = 0; i < this.$store.state.shopcart.length; i++) {
-                    let item = this.$store.state.shopcart[i];
-                    item.flag = false;
-                    this.$store.state.cartNumber2 = 0;
-                    this.$store.state.subprice = 0;
-                }
-            }
-            this.$store.state.allchecked = !this.$store.state.allchecked;
+            this.$store.commit('taballchecked');
         },
         delgoods() {
             this.$store.commit('delgoods');
